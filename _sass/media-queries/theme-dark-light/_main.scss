@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --hue: 36;
+        --sat: 100%;
+
+        --background-color: #101012;
+        --first-color:     hsl(var(--hue), var(--sat), 40%);
+        --first-color-alt: hsl(var(--hue), var(--sat), 36%);
+
+        --title-color: hsl(var(--hue),  100%, 100%);
+        --text-color:  hsl(var(--hue),   8%, 45%);
+        --body-color:  hsl(var(--hue), 0%, 0%);
+
+        --container-color: var(--background-color);
+        --article-background: hsl(240, 5%, 9%);
+    }
+}

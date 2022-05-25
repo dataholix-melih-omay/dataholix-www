@@ -1,0 +1,69 @@
+/* ===== Template layout */
+.container {
+    max-width: var(--desktop-break);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* ===== Aktive anzeige im link */
+.active-link {
+    position: relative;
+    color: var(--first-color);
+    transition: .3s;
+}
+
+/* ===== Minimalist design, active link */
+/* .active-link::before{
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    width: 4px;
+    height: 4px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+  } */
+
+
+/* ===== Ändere  Hintergrund Header */
+.scroll-header {
+    box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+}
+
+/* ===== Content */
+
+section > h1 {
+    color: var(--title-color);
+}
+
+section > p {
+    color: var(--text-color);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+    background-color: var(--article-background);
+    border-radius: 1.25rem;
+    padding: 15px;
+    /* margin: 15px; */
+}
+
+article > em {
+    /* color: var(--title-color); */
+    color: var(--both-accent-color);
+    font-size: 3rem;
+}
+
+article > header {
+    color: var(--title-color);
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+/* ===== Content grid*/
+
+.solo-title {
+    font-weight: 800;
+    font-size: 1.3rem;
+}

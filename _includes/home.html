@@ -1,0 +1,28 @@
+
+<section class="container section section__height" id="home">
+
+    <section>
+        <h1>Dein Digitalisierungs - Partner</h1>
+        <p>für datengetriebene Lösungen.</p>
+        <p>Profitiere von unserer xpertise</p>
+    </section>
+
+    <section class="service-grid">
+
+        <section class="simple-flex " >
+            <header class="solo-title">
+                Steigere Deinen Geschäftserfolg mit Hilfe Deiner Daten
+            </header>
+            <br>
+            <p>
+                Optimiere Deine Prozesse und die Systemlandschaft. Finde mit uns die passenden Lösungen für Deinen
+                zukünftigen Erfolg.
+            </p>
+        </section>
+
+        {% for service in site.data.services.de.items %}
+            {% include elements-services/service.html item=service %}
+        {% endfor %}
+
+    </section>
+</section>

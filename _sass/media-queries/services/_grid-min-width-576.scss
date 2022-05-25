@@ -1,0 +1,28 @@
+.service-grid {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "one one"
+        "two three"
+        "four five"
+        "six seven"
+        "eight nine"
+}
+.service-grid > :nth-child(1) {
+    align-self: center;
+    grid-area: one;
+}
+
+.service-grid > :nth-child(2) {
+    grid-area: two;
+}
+.service-grid > :nth-child(3) {
+    transform: translate(0px, 0px);
+    grid-area: three;
+}
+
+.service-grid > :nth-child(6) {
+    transform: translate(0px, 0px);
+    grid-area: six;
+}
