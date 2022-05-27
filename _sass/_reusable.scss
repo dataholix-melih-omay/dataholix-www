@@ -3,6 +3,10 @@
     padding: 4.5rem 0 2rem;
 }
 
+.section__no-out-space {
+    padding: 0;
+}
+
 .section__title {
     color: var(--title-color);
     font-size: var(--h1-font-size);
@@ -11,5 +15,9 @@
 }
 
 .section__height {
+    min-height: 100vh;
+}
+
+.section__height-fix {
     height: 100vh;
 }
