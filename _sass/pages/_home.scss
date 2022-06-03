@@ -4,7 +4,7 @@
             color: var(--title-color);
         }
         p {
-                color: var(--text-color);
+            color: var(--text-color);
         }
     }
 
@@ -35,5 +35,44 @@
     .solo-title {
         font-weight: 800;
         font-size: 1.3rem;
+    }
+
+    .flex-container {
+        margin-top: 5rem;
+        p {
+            margin-top: 1rem;
+        }
+
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        :nth-child(1), :nth-child(2) {
+            flex: 1;
+        }
+
+        .nutzen-container {
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 50%;
+            }
+
+            position: relative;
+            text-align: center;
+            .centered {
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: var(--h1-font-size);
+                color: var(--both-background-color);
+                span {
+                    color: var(--both-accent-color);
+                }
+            }
+        }
     }
 }
