@@ -5,6 +5,6 @@
 - Aufbau über Jekyll
 - Responsive Darstellung
 
-### Vorraubsetzungen:
+### Voraussetzungen
 
 - ruby größer 3.x, oder im .ruby-version betrachten
