@@ -7,22 +7,24 @@
         "two three"
         "four five"
         "six seven"
-        "eight nine"
-}
-.service-grid > :nth-child(1) {
-    align-self: center;
-    grid-area: one;
-}
+        "eight nine";
 
-.service-grid > :nth-child(2) {
-    grid-area: two;
-}
-.service-grid > :nth-child(3) {
-    transform: translate(0px, 0px);
-    grid-area: three;
-}
+    > :nth-child(1) {
+        align-self: center;
+        grid-area: one;
+    }
 
-.service-grid > :nth-child(6) {
-    transform: translate(0px, 0px);
-    grid-area: six;
+    > :nth-child(2) {
+        grid-area: two;
+    }
+
+    > :nth-child(3) {
+        transform: translate(0px, 0px);
+        grid-area: three;
+    }
+
+    > :nth-child(6) {
+        transform: translate(0px, 0px);
+        grid-area: six;
+    }
 }

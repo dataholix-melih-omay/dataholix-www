@@ -1,7 +1,8 @@
 .service-grid {
+    background-color: beige;
     display: grid;
     gap: 1.25rem;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-template-areas:
         "one"
         "two"
@@ -10,22 +11,24 @@
         "five"
         "six"
         "eight"
-        "nine"
-}
-.service-grid > :nth-child(1) {
-    align-self: center;
-    grid-area: one;
-}
+        "nine";
 
-.service-grid > :nth-child(2) {
-    grid-area: two;
-}
-.service-grid > :nth-child(3) {
-    transform: translate(0px, 0px);
-    grid-area: three;
-}
+    > :nth-child(1) {
+        align-self: center;
+        grid-area: one;
+    }
 
-.service-grid > :nth-child(6) {
-    transform: translate(0px, 0px);
-    grid-area: six;
+    > :nth-child(2) {
+        grid-area: two;
+    }
+
+    > :nth-child(3) {
+        transform: translate(0px, 0px);
+        grid-area: three;
+    }
+
+    > :nth-child(6) {
+        transform: translate(0px, 0px);
+        grid-area: six;
+    }
 }
