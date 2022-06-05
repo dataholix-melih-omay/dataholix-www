@@ -93,13 +93,17 @@
         .vertrauen-container-grid {
             display: grid;
             gap: 1.25rem;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: auto auto auto auto auto;
             grid-template-areas:
                 "head  head head  head"
                 "one   four seven ten"
                 "two   five eight eleven"
                 "three six  nine  twelve";
 
+            .title-color {
+                font-size: 2rem;
+                color: var(--first-color);
+            }
             > :nth-child(1) {
                 grid-area: head;
             }
