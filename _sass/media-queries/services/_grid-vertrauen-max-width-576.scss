@@ -1,0 +1,78 @@
+#home {
+    #vertrauen {
+        .section--title {
+            font-size: clamp(0.7rem, calc(-0.5500rem + 6.2500vw), 1.7rem);
+        }
+
+        .vertrauen-container-grid {
+            display: grid;
+            gap: 1.25rem;
+            grid-template-columns: auto auto auto auto auto ;
+            align-content:space-between;
+            grid-template-areas:
+                "head  head"
+                "one   seven"
+                "two   eight"
+                "three nine "
+                "four  ten"
+                "five  eleven"
+                "six   twelve";
+
+            .title-color {
+                font-size: 2rem;
+                color: var(--first-color);
+            }
+            > :nth-child(1) {
+                justify-self: center;
+                grid-area: head;
+            }
+            > :nth-child(2) {
+                justify-self: center;
+                grid-area: one;
+            }
+            > :nth-child(3) {
+                justify-self: center;
+                grid-area: two;
+            }
+            > :nth-child(4) {
+                justify-self: center;
+                grid-area: three;
+            }
+            > :nth-child(5) {
+                justify-self: center;
+                grid-area: four;
+            }
+            > :nth-child(6) {
+                justify-self: center;
+                grid-area: five;
+            }
+            > :nth-child(7) {
+                justify-self: center;
+                grid-area: six;
+            }
+            > :nth-child(8) {
+                justify-self: center;
+                grid-area: seven;
+            }
+            > :nth-child(9) {
+                justify-self: center;
+                grid-area: eight;
+            }
+            > :nth-child(10) {
+                justify-self: center;
+                grid-area: nine;
+            }
+            > :nth-child(11) {
+                justify-self: center;
+                grid-area: ten;
+            }
+            > :nth-child(12) {
+                grid-area: eleven;
+            }
+            > :nth-child(13) {
+                justify-self: center;
+                grid-area: twelve;
+            }
+        }
+    }
+}

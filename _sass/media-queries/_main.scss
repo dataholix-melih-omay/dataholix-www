@@ -33,11 +33,12 @@
 }
 
 @media screen and (max-width: 576px) {
-    /* body {
-        background-color: red;
-    } */
+    // body {
+    //     background-color: red;
+    // }
     @import "services/grid-max-width-576";
     @import "services/grid-nutzen-max-width-576";
+    @import "services/grid-vertrauen-max-width-576";
 
 }
 @media screen and (max-width: 320px) {
@@ -56,8 +57,6 @@
         background-color: burlywood;
     } */
     @import "services/grid-min-width-576";
-    
-
 }
 
 @media screen and (min-width: 767px) {
