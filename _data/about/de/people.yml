@@ -1,0 +1,12 @@
+items:
+  - image_path: /assets/images/about/melih_omay.webp
+    name: Melih Omay
+    title: Co-Founder & Managing Director Software Development
+
+  - image_path: /assets/images/about/oliver_unger.webp
+    name: Oliver Unger
+    title: Co-Founder & Managing Director & CEO
+
+  - image_path: /assets/images/about/angelo_pizzulli.webp
+    name: Angelo Pizzulli
+    title: Co-Founder & Managing Director Sales & Operations
