@@ -1,3 +1,16 @@
 <section class="container section section__height" id="skills">
     <h2 class="section__title">Skills</h2>
+    <section class="section--title">
+        Starte das neue Zeitalter ganzheitlicher digitaler Datenberatung.
+        
+        <p><span class="big-X">X</span>pertise</p>
+    </section>
+
+    <section>
+        Unsere Services
+    </section>
+
+    {% for serviceItem in site.data.services.de.us_services.items %}
+        {% include elements-services/us_service.html item=serviceItem %}
+    {% endfor %}
 </section>

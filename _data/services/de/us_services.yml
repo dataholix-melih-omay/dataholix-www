@@ -1,0 +1,24 @@
+items:
+  - image_path: /assets/images/svgs/data.svg
+    title: Data Analytics & Business Intelligence Lösungen
+    content: Deine Daten sind die Schätze von heute. Die Analyse, Extraktion, Transformation, Visualisierung und das Verständnis Deiner Daten ist Dein Kapital von morgen. 
+    sub_title: Wir helfen dir dabei dein Datenpotential zu erkennen und es gewinnbringend zu nutzen.
+    alt: data
+
+  - image_path: /assets/images/svgs/management.svg
+    title: Data Analytics & Business Intelligence Lösungen
+    content: Deine Daten sind die Schätze von heute. Die Analyse, Extraktion, Transformation, Visualisierung und das Verständnis Deiner Daten ist Dein Kapital von morgen. 
+    sub_title: Wir helfen dir dabei dein Datenpotential zu erkennen und es gewinnbringend zu nutzen.
+    alt: management
+
+  - image_path: /assets/images/svgs/customer.svg
+    title: Data Analytics & Business Intelligence Lösungen
+    content: Deine Daten sind die Schätze von heute. Die Analyse, Extraktion, Transformation, Visualisierung und das Verständnis Deiner Daten ist Dein Kapital von morgen. 
+    sub_title: Wir helfen dir dabei dein Datenpotential zu erkennen und es gewinnbringend zu nutzen.
+    alt: customer
+
+  - image_path: /assets/images/svgs/cloud.svg
+    title: Data Analytics & Business Intelligence Lösungen
+    content: Deine Daten sind die Schätze von heute. Die Analyse, Extraktion, Transformation, Visualisierung und das Verständnis Deiner Daten ist Dein Kapital von morgen. 
+    sub_title: Wir helfen dir dabei dein Datenpotential zu erkennen und es gewinnbringend zu nutzen.
+    alt: cloud
