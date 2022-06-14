@@ -6,19 +6,25 @@ items:
     alt: data
 
   - image_path: /assets/images/svgs/management.svg
-    title: Data Analytics & Business Intelligence Lösungen
-    content: Deine Daten sind die Schätze von heute. Die Analyse, Extraktion, Transformation, Visualisierung und das Verständnis Deiner Daten ist Dein Kapital von morgen. 
-    sub_title: Wir helfen dir dabei dein Datenpotential zu erkennen und es gewinnbringend zu nutzen.
+    title: Management Consulting
+    content: Was ist die richtige Strategie? Welche Geschäftsprozesse führen zu Optimierung? Was sind meine Kernprozesse? Habe ich die richtigen Unternehmenskennzahlen definiert?
+    sub_title: Wir unterstützen dich dabei Antworten auf deine Fragen zu finden.
     alt: management
 
   - image_path: /assets/images/svgs/customer.svg
-    title: Data Analytics & Business Intelligence Lösungen
-    content: Deine Daten sind die Schätze von heute. Die Analyse, Extraktion, Transformation, Visualisierung und das Verständnis Deiner Daten ist Dein Kapital von morgen. 
-    sub_title: Wir helfen dir dabei dein Datenpotential zu erkennen und es gewinnbringend zu nutzen.
+    title: Customer Experience & Software
+    content: Ein ansprechendes Design, intuitive Bedienung und moderne IT-Architekturen führen zu einer höheren Kundenorientierung.  
+    sub_title: Wir unterstützen Dich bei der Integration von intelligenten und nachhaltigen IT-Systemlösungen.
     alt: customer
 
   - image_path: /assets/images/svgs/cloud.svg
-    title: Data Analytics & Business Intelligence Lösungen
-    content: Deine Daten sind die Schätze von heute. Die Analyse, Extraktion, Transformation, Visualisierung und das Verständnis Deiner Daten ist Dein Kapital von morgen. 
-    sub_title: Wir helfen dir dabei dein Datenpotential zu erkennen und es gewinnbringend zu nutzen.
+    title: Modern Cloud Solutions
+    content: Du hast riesige Datenmengen, hast Probleme bei der Skalierbarkeit, Du vermisst die Flexibilität und bist Dir unsicher wegen Deiner Datensicherheit?
+    sub_title: Unsere Beratungsleistungen unterstützen Dich dabei die richtigen Antworten zu finden.
     alt: cloud
+
+  - image_path: /assets/images/svgs/management.svg
+    title: PM / Agile Methodology & Training
+    content: Klassische, agile oder doch hybride Steuerung von Projekten. Unsere Kompetenz führt zu schnellen Lösungen. Mit Trainings zur modernen IT-Lösungsfindung. 
+    sub_title: Wir unterstützen dich dabei die richtigen Methoden auszuwählen und begleiten dich bei der Durchführung deiner Projekte.
+    alt: Agile
