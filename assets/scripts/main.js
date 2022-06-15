@@ -11,9 +11,9 @@ function scrollActive() {
             sectionId = current.getAttribute('id'),
             queryNav = document.querySelector(`.nav__menu a[href*='${sectionId}']`);
         
-            if (queryNav) {
+       if (queryNav) {
             const navClassList = queryNav.classList;
-                (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight)
+            (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight)
                 ? navClassList.add(activeLink)
                 : navClassList.remove(activeLink);
         }
