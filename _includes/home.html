@@ -1,38 +1,35 @@
-
 <section class="container section section__height" id="home">
+  <section class="section__title">
+    <h1>Dein Digitalisierung's - Partner</h1>
+  </section>
+  <section class="section__title">
+    <h2>
+      für Daten getriebene Lösungen. Profitiere von unserer
+      <span class="big-X">X</span>pertise.
+    </h2>
+  </section>
 
-    <section>
-        <h1>Dein Digitalisierung's - Partner</h1>
-        <br>
-        <p>für Daten getriebene Lösungen.</p>
-        <p>Profitiere von unserer xpertise</p>
-        more
+  <section class="service-grid">
+    <section class="simple-flex">
+      <header class="solo-title">
+       Geschäftserfolg steigern mit Hilfe Ihrer Daten
+      </header>
+      <br />
+      <p>
+        Optimierung von Prozessen und Systemlandschaften.  <br />
+        Gemeinsam finden wir die passenden Lösungen für den zukünftigen Erfolg.
+      </p>
     </section>
 
-    <section class="service-grid">
+    {% for service in site.data.home.de.services.items %} {% include
+    elements-services/service.html item=service %} {% endfor %}
+  </section>
 
-        <section class="simple-flex " >
-            <header class="solo-title">
-                Steigere Deinen Geschäftserfolg mit Hilfe Deiner Daten
-            </header>
-            <br>
-            <p>
-                Optimiere Deine Prozesse und die Systemlandschaft. Finde mit uns die passenden Lösungen für Deinen
-                zukünftigen Erfolg.
-            </p>
-        </section>
+  <section class="flex-container">
+    {% include elements-services/nutzen.html %}
+  </section>
 
-        {% for service in site.data.home.de.services.items %}
-            {% include elements-services/service.html item=service %}
-        {% endfor %}
-
-    </section>
-
-    <section class="flex-container">
-        {% include elements-services/nutzen.html %}
-    </section>
-
-    <section id="vertrauen">
-        {% include elements-services/vertrauen.html %}
-    </section>
+  <section id="vertrauen">
+    {% include elements-services/vertrauen.html %}
+  </section>
 </section>

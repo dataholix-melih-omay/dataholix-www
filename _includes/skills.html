@@ -1,15 +1,11 @@
 <section class="container section section__height" id="skills">
-    <h2 class="section__title">Skills</h2>
+    <h2 class="section__title"> Unsere Services</h2>
+    <div class="flex-line"><div></div></div>
+
     <section class="section--title">
         Starte das neue Zeitalter ganzheitlicher digitaler Datenberatung.
-        
-        <p><span class="big-X">X</span>pertise</p>
+        <p>Nutze  unsere <span class="big-X">X</span>pertise.</p>
     </section>
-
-    <section>
-        Unsere Services
-    </section>
-
     {% for serviceItem in site.data.home.de.us_services.items %}
         {% include elements-services/us_service.html item=serviceItem %}
     {% endfor %}

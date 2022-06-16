@@ -1,12 +1,13 @@
 <section class="container section section__height" id="about">
-    <h2 class="section__title">About</h2>
-    <!-- <div id="data">
-        <div>
-            <h1>Daten und ihre Potenziale</h1>
-        </div>
-    </div> -->
+    <h2 class="section__title">Wer wir sind</h2>
+    <div class="flex-line"><div></div></div>
+    
+    <div class="container-about">
+        {% for person in site.data.about.de.people.items %}
+            {% include elements-services/persona.html item=person %}
+        {% endfor %}
+    </div>
 
-    {% for person in site.data.about.de.people.items %}
-        {% include elements-services/persona.html item=person %}
-    {% endfor %}
+
+    
 </section>

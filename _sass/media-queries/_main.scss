@@ -60,6 +60,9 @@
 }
 
 @media screen and (min-width: 767px) {
+    .nav__logo {
+        display: none;
+    }
     body {
         margin: 0;
     }
@@ -75,11 +78,14 @@
       height: calc(var(--header-height) + 1.5rem); /* 4.5rem */
     }
     .nav__img {
-        display: none;
+        width: 300px;
+        object-position: left -20px;
+        
     }
     .nav__icon {
         display: none;
     }
+    
     .nav__name {
         font-size: var(--normal-font-size);
         /* display: block; */ /* Minimalist design, visible labels */
@@ -115,5 +121,9 @@
     /* body {
         background-color: green;
     } */
+
+    .nav__logo {
+        display: none;
+    }
 
 }

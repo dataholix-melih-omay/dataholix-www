@@ -1,13 +1,17 @@
 #home {
     #vertrauen {
+        margin-top: 32px;
         .section--title {
             font-size: clamp(0.7rem, calc(-0.5500rem + 6.2500vw), 1.7rem);
+            text-align:center;
+            margin-bottom: 16px;
+            
         }
 
         .vertrauen-container-grid {
             display: grid;
             gap: 1.25rem;
-            grid-template-columns: auto auto auto auto auto ;
+            grid-template-columns: auto auto ;
             align-content:space-between;
             grid-template-areas:
                 "head  head"
@@ -25,6 +29,7 @@
             > :nth-child(1) {
                 justify-self: center;
                 grid-area: head;
+                text-align:center
             }
             > :nth-child(2) {
                 justify-self: center;

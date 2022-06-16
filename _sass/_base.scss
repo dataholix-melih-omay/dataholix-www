@@ -4,28 +4,28 @@
     --header-height: 3rem;
     --desktop-break: 968px;
     /* ===== Farben */
-    --hue: 174;
-    --sat: 63%;
+    --hue: 36;
+    --sat: 100%;
     --background-color: #fff;
     --both-background-color: #fff;
-    --accent_hue: 224;
-    --both-accent-color:  hsl(36, 72%, 55%);
+    --accent_hue: 0;
+    --both-accent-color:  hsl(36, 100%, 48%);
 
-    --first-color:     hsl(var(--hue), var(--sat), 40%);
+    --first-color:     hsl(var(--hue), var(--sat), 48%);
     --first-color-alt: hsl(var(--hue), var(--sat), 36%);
 
     --title-color: hsl(var(--hue),  12%, 15%);
     --text-color:  hsl(var(--hue),   8%, 35%);
-    --body-color:  hsl(var(--hue), 100%, 99%);
+    --body-color:  hsl(var(--hue), 100%, 98%);
 
     --container-color: var(--background-color);
-    --article-background: hsl(var(--accent_hue), 88%, 97%);
+    --article-background: hsl(var(--accent_hue), 0%, 100%);
 
 
     /* ===== Font und Darstellungen */
     --body-font: 'Montserrat', sans-serif;
 /*  */
-    --h1-font-size: 1.5rem;
+    --h1-font-size: 3rem;
     --normal-font-size: .938rem;
     --tiny-font-size: .625rem;
 
@@ -44,6 +44,26 @@
 html {
     scroll-behavior: smooth;
 }
+
+body {
+	background: linear-gradient(-45deg, #f9e7cb, var(--body-color),#eee, var(--body-color));
+	background-size: 400% 1000%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 body {
 
@@ -65,5 +85,14 @@ a {
 img {
     max-width: 100%;
     height: auto;
+}
+a {
+    color:var(--both-accent-color);
+}
+a:hover{
+    text-decoration: underline;
+}
+.spacing{
+    padding-bottom: 70px;
 }
 

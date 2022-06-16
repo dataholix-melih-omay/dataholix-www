@@ -1,3 +1,5 @@
-<img src={{ include.item.image_path | prepend: site.baseurl}} alt="Person {{include.item.name}}">
-<div>{{include.item.name}}</div>
-<div>{{include.item.title}}</div>
+<div>
+    <img src={{ include.item.image_path | prepend: site.baseurl}} alt="Person {{include.item.name}}">
+    <p><strong>{{include.item.name}}</strong></p>
+    <p>{{include.item.title}}<p>
+</div>

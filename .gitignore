@@ -7,3 +7,7 @@ vendor
 
 # IDE
 .vscode
+
+
+# System
+.DS_Store

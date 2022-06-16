@@ -1,12 +1,15 @@
-<article>
-    <img src="{{include.item.image_path | prepend: site.baseurl}}" alt="Service icon {{include.item.alt}}"/>
+<div class="container-skills">
+  <div>
+    <img class="bg-icon"
+      src="{{include.item.image_path | prepend: site.baseurl}}"
+      alt="Service icon {{include.item.alt}}"
+    />
+  </div>
+  <div>
     <section>
-        {{include.item.title}}
+      <strong>{{include.item.title}}</strong>
     </section>
-    <section>
-        {{include.item.content}}
-    </section>
-    <section>
-        {{include.item.sub_title}}
-    </section>
-</article>
+    <section>{{include.item.content}}</section>
+    <section>{{include.item.sub_title}}</section>
+  </div>
+</div>

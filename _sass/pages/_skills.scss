@@ -1,5 +1,37 @@
 #skills {
-    .section--title {
-        font-size: 2em;
+   .section--title {
+        font-size: 1.8em;
+        text-align: center;
     }
+
+    .container-skills {
+        margin-top:24px;
+        display: flex;
+        flex-wrap: wrap;
+        --margin: 1rem;
+        --multiplier: calc(40rem - 100%);
+      }
+      
+      .container-skills > *{
+        max-width: 100%;
+        flex-grow: 1;
+        flex-basis: calc(var(--multiplier) * 999);
+        margin: var(--margin);
+      }
+      
+      .container-skills > :nth-child(1) {
+        min-width: calc(10% - (var(--margin) * 2));
+        
+      }
+      
+      .container-skills > :nth-child(2) {
+        min-width: calc(90% - (var(--margin) * 2));
+      }
+      .bg-icon{ 
+        border-radius: 12px;
+        background-color:  var(--both-accent-color);
+        padding:8px;
+        height: 50px;
+        width:50px
+    }     
 }
