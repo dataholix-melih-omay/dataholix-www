@@ -3,9 +3,15 @@
   image_path: /assets/images/svgs/data.svg
   title: Data Analytics & Business Intelligence Lösungen
   p: 
-    - Mit Data Analytics helfen wir dir dabei aus deinen Daten die wesentlichen Informationen herauszufiltern. Durch die richtige Kombination und Interpretation deiner Daten ergeben sich ganz neue Entscheidungsmöglichkeiten.
-    - Durch automatisierte Analyseschritte erhältst du neue Sichtweisen auf Sachverhalte und Prozesse. Dadurch können Fakten geschaffen werden die dich bei der Beantwortung deiner Fragestellungen unterstützen. Zusätzlich können langfristig Prozesse im Unternehmen optimiert werden.
-    - Wir unterstützen dich auch konzeptionell bei der Implementierung von nachhaltigen Business Intelligence Lösungen.
+    - |
+      Mit Data Analytics helfen wir dir dabei aus deinen Daten die wesentlichen Informationen herauszufiltern.
+      Durch die richtige Kombination und Interpretation deiner Daten ergeben sich ganz neue Entscheidungsmöglichkeiten.
+    - | 
+      Durch automatisierte Analyseschritte erhältst du neue Sichtweisen auf Sachverhalte und Prozesse.   
+      Dadurch können Fakten geschaffen werden die dich bei der Beantwortung deiner Fragestellungen unterstützen.
+      Zusätzlich können langfristig Prozesse im Unternehmen optimiert werden.
+    - | 
+      Wir unterstützen dich auch konzeptionell bei der Implementierung von nachhaltigen Business Intelligence Lösungen.
   alt: Data Analytics
   services: 
     - Datenanalyse
