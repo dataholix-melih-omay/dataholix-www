@@ -1,21 +1,21 @@
 
 items:
   - title: Data Analytics & Business Intelligence Lösungen
-    icon: bx bx-data
+    image_path: /assets/images/svgs/analyse-orange.svg
     content: Deine Daten sind die Schätze von heute. Die Analyse, Extraktion, Transformation, Visualisierung un das Verständnis Deiner Daten ist Dein Kapital von morgen. Nutze Dein Datenpotential.
 
   - title: Customer Experience & Software
-    icon: bx bx-customize
+    image_path: /assets/images/svgs/up-orange.svg
     content: Ansprechendes Design, intuitive Bedienung, moderne IT-Architekturen führen zur einer höheren Kundenorientierung. Wir unterstützen dich bei intelligenten und nachhaltigen IT- Systemlösungen.
 
   - title: Modern Cloud Solutions
-    icon: bx bx-cloud
+    image_path: /assets/images/svgs/cloud-orange.svg
     content: Riesige Datenmengen. Skalierbarkeit. Flexibilität. Datensicherheit. Nur Schlagworte? Frage uns?
 
   - title: Management Consulting
-    icon: bx bx-group
+    image_path: /assets/images/svgs/gemeinsam-orange.svg
     content: Was ist die richtige Strategie? Welche Geschäftsprozesse führen zu Optimierung? Was sind meine Kernprozesse? Fragen bei denen wir Dich unterstützen!
 
   - title: PM / Agile Methodology & Training
-    icon: bx bx-shape-circle bx-flip-vertical
+    image_path: /assets/images/svgs/training-orange.svg
     content: Klassische, agile oder doch hybride Steuerung von Projekten. Unsere Kompetenz führt zu schnellen Lösungen. Mit Trainings zur modernen IT Lösungsfindung unterstützen wir Dich zusätzlich.

@@ -28,10 +28,14 @@
         min-width: calc(90% - (var(--margin) * 2));
       }
       .bg-icon{ 
-        border-radius: 12px;
+        border-radius: 4px;
         background-color:  var(--both-accent-color);
-        padding:8px;
+        padding:4px;
         height: 50px;
         width:50px
-    }     
+    }  
+    h5{
+        padding:16px 0 4px 0;
+        
+    }   
 }

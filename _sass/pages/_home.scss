@@ -1,6 +1,5 @@
 #home {
     section {
-        margin-bottom:48px;
         h1 {
             color: var(--title-color);
             font-size: var(--h1-font-size);
@@ -19,10 +18,9 @@
         border-radius: 1.25rem;
         padding: 15px;
         /* margin: 15px; */
-        > em {
-            // color: var(--title-color);
-            color: var(--both-accent-color);
-            font-size: 3rem;
+       img {
+           height:48px;
+           width:48px;
         }
 
         header {
@@ -31,6 +29,8 @@
             font-size: 0.7rem;
         }
     }
+
+    
 
     /* ===== Content grid*/
 

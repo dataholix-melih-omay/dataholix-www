@@ -6,11 +6,7 @@
         Starte das neue Zeitalter ganzheitlicher digitaler Datenberatung.
         <p>Nutze  unsere <span class="big-X">X</span>pertise.</p>
     </section>
-    {% for serviceItem in site.data.home.de.us_services.items %}
-        {% include elements-services/us_service.html item=serviceItem %}
-    {% endfor %}
-
-    <div>--- new ---</div> 
+    
     {% for serviceItem in site.data.home.de.us_services_extend %}
         {% include elements-services/us_service_extend.html item=serviceItem %}
     {% endfor %}

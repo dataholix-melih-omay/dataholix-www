@@ -1,18 +1,14 @@
 <section class="container section section__height" id="about">
-    <h2 class="section__title">Das Unternehmen</h2>
+  <h2 class="section__title">Wer wir sind</h2>
+  <div class="flex-line"><div></div></div>
 
-    {% for content_block in site.data.about.de.us_info_block %}
-        {% include elements/about_us/info_block.html item=content_block%}
+  <div class="container-about spacing">
+    {% for person in site.data.about.de.people.items %} {% include
+    elements-services/persona.html item=person %} 
     {% endfor %}
+  </div>
+  
 
-    <h2 class="section__title">Wer wir sind</h2>
-
-    <div class="flex-line"><div></div></div>
-    
-    <div class="container-about">
-        {% for person in site.data.about.de.people.items %}
-            {% include elements-services/persona.html item=person %}
-        {% endfor %}
-    </div>
-    
+  {% for content_block in site.data.about.de.us_info_block %} {% include
+  elements/about_us/info_block.html item=content_block%} {% endfor %}
 </section>

@@ -1,6 +1,6 @@
 
 - 
-  image_path: /assets/images/svgs/data.svg
+  image_path: /assets/images/svgs/analyse.svg
   title: Data Analytics & Business Intelligence Lösungen
   p: 
     - |
@@ -23,7 +23,7 @@
 
 
 - 
-  image_path: /assets/images/svgs/management.svg
+  image_path: /assets/images/svgs/gemeinsam.svg
   title: Management Consulting
   p: 
     - Das Thema agile Transformation und nachhaltige Digitalisierung stellt viele Unternehmen vor große Herausforderungen. Gerade mit Blick auf strategische Entscheidungen spielen die Themen eine essentielle Rolle für zukünftigen wirtschaftlichen Erfolg eines Unternehmens.
@@ -56,7 +56,7 @@
     - Moderner Mobile & Internetauftritt durch individuelles Design
 
 - 
-  image_path: /assets/images/svgs/customer.svg
+  image_path: /assets/images/svgs/up.svg
   title: Customer Experience 
   p: 
     - Positive Kundenerfahrungen zu gestalten ist für viele Unternehmen noch eine Herausforderung. Der Wettbewerbsvorteil gegenüber Konkurrenten ist jedoch immens groß.
@@ -71,7 +71,7 @@
     - Datengetriebene Prozessoptimierung
 
 - 
-  image_path: /assets/images/svgs/cloud.svg
+  image_path: /assets/images/svgs/cloud-01.svg
   title: Modern Cloud Solutions
   p: 
     - Viele Unternehmen tun sich schwer die richtige E-Business Lösung zu finden.
@@ -87,7 +87,7 @@
     - Sicherheitskonzepte für Daten in der Cloud
 
 - 
-  image_path: /assets/images/svgs/management.svg
+  image_path: /assets/images/svgs/training.svg
   title: PM / Agile Methodology & Training
   p: 
     - Das Thema Projektmanagement gibt es schon sehr lange, sorgt aber immer wieder dazu das Unternehmen Ziele nicht erreichen, Projekte scheitern und somit sehr hohe Kosten entstehen ohne einen Mehrwert zu generieren.

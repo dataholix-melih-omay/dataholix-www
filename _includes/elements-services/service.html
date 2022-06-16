@@ -1,5 +1,6 @@
 <article>
-    <em class='{{include.item.icon}}'></em>
+    <img class="bg-icon" src="{{include.item.image_path | prepend: site.baseurl}}"
+    alt="Service icon {{include.item.alt}}" />
     <header>
         <h2>{{include.item.title}}</h2>
     </header>
