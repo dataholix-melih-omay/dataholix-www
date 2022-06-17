@@ -1,7 +1,7 @@
 ---
 short_title: hashtags 
 lang: de
-image_path: "/assets/images/blog/WebAsembly.png"
+image_path: 
 categories:
 - de
 - allgemein
