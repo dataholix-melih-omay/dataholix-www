@@ -130,6 +130,7 @@
 
     .nav__link:hover {
         color: var(--first-color);
+        text-decoration: none;
     }
 
     /* First design, remove if you choose the minimalist design */
@@ -137,8 +138,8 @@
         content: '';
         position: absolute;
         bottom: -.75rem;
-        width: 4px;
-        height: 4px;
+        width: 5px;
+        height: 5px;
         background-color: var(--first-color);
         border-radius: 50%;
     }

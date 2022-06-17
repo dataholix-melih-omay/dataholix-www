@@ -1,21 +1,13 @@
 ---
-short_title: Hurra Aneglo hat angefangen!
+short_title: hashtags 
 lang: de
-image_path: "/assets/images/about//angelo_pizzulli.webp"
+image_path: "/assets/images/blog/WebAsembly.png"
 categories:
 - de
 - allgemein
-excerpt_separator: "<!--more-->"
+
 ---
 
-# Wir sind voller spannung 
+# Titel Blog
 
-<br>
-
-Mit frischen neune ideen  wollen wir Ihnen regelmässig unsere Erkentnisse und ergebnisse auf unseren **blog** mit ihnen teilen
-<!--more-->
-
-## Weiterer eintrag
-
-Mit frischen neune ideen  wollen wir Ihnen regelmässig unsere Erkentnisse und ergebnisse auf unseren **blog** mit ihnen teilen
-![image](/assets/images/about/angelo_pizzulli.webp)
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
