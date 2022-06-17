@@ -1,3 +1,30 @@
 #contactme {
-    
+    .container-contact {
+        margin-top:24px;
+        display: flex;
+        flex-wrap: wrap;
+        --margin: 1rem;
+        --multiplier: calc(40rem - 100%);
+      }
+      
+      .container-contact > *{
+        max-width: 100%;
+        flex-grow: 1;
+        flex-basis: calc(var(--multiplier) * 999);
+        margin: var(--margin);
+      }
+      
+      .container-contact > :nth-child(1) {
+        min-width: calc(60% - (var(--margin) * 2));
+        
+      }
+      
+      .container-contact > :nth-child(2) {
+        min-width: calc(40% - (var(--margin) * 2));
+      }
+      
+      
 }
+
+p{padding:8px 0 0 0 }
+h2{padding:16px 0 0 0 }
