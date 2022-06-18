@@ -15,10 +15,10 @@ items:
     title: Individual Software Development
     content: Manchmal hilft eine Standard Software nicht. 
     sub_title: Wir unterstützen dich bei intelligenten und nachhaltigen IT- Systemlösungen, die flexibel und passgenau Deinen gewünschten Funktionsumfang mit einer modernen und sicheren IT- Lösung abbilden.
-    alt: customer
+    alt: Individual
     
   - image_path: /assets/images/svgs/customer.svg
-    title: Customer Experience & Software
+    title: Customer Experience
     content: Ansprechendes Design, intuitive Bedienung, moderne IT-Architekturen führen zur einer höheren Kundenorientierung. 
     sub_title: Wir unterstützen Dich bei der Integration von intelligenten und nachhaltigen IT-Systemlösungen.
     alt: customer
