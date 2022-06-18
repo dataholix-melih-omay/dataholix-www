@@ -11,11 +11,11 @@ items:
     sub_title: Wir unterstützen dich dabei Antworten auf deine Fragen zu finden.
     alt: management
 
-  - image_path: /assets/images/svgs/customer.svg
+  - image_path: /assets/images/svgs/individual-software-development.svg
     title: Individual Software Development
     content: Manchmal hilft eine Standard Software nicht. 
     sub_title: Wir unterstützen dich bei intelligenten und nachhaltigen IT- Systemlösungen, die flexibel und passgenau Deinen gewünschten Funktionsumfang mit einer modernen und sicheren IT- Lösung abbilden.
-    alt: Individual
+    alt: individual
     
   - image_path: /assets/images/svgs/customer.svg
     title: Customer Experience
@@ -33,4 +33,4 @@ items:
     title: PM / Agile Methodology & Training
     content: Klassische, agile oder doch hybride Steuerung von Projekten. Unsere Kompetenz führt zu schnellen Lösungen. Mit Trainings zur modernen IT-Lösungsfindung. 
     sub_title: Wir unterstützen dich dabei die richtigen Methoden auszuwählen und begleiten dich bei der Durchführung deiner Projekte.
-    alt: Agile
+    alt: agile
