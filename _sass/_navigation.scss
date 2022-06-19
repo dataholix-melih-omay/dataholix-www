@@ -37,6 +37,17 @@
     /* display: none;*/ /* Minimalist design, hidden labels */
 }
 
-.nav__icon {
-    font-size: 1.5rem;
+.nav__icon{width:20px;}
+
+.nav__icon:hover {
+        cursor: pointer;
+        filter: invert(45%) sepia(70%) saturate(1019%) hue-rotate(4deg) brightness(99%) contrast(90%);
 }
+.nav__icon:focus {
+    filter: invert(45%) sepia(70%) saturate(1019%) hue-rotate(4deg) brightness(99%) contrast(90%);
+}
+
+ 
+
+
+
