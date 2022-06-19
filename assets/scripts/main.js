@@ -4,6 +4,7 @@ const sections = document.querySelectorAll('section[id]');
 function scrollActive() {
     const scrollY = window.pageYOffset;
     const activeLink = 'active-link';
+    const activeIcon = 'nav__icon-active';
 
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight,
@@ -11,15 +12,23 @@ function scrollActive() {
             sectionId = current.getAttribute('id'),
             queryNav = document.querySelector(`.nav__menu a[href*='${sectionId}']`);
         
-       if (queryNav) {
+        if (queryNav) {
+            const toggleClass = (toggle) => {
+                navClassList[toggle](activeLink);
+                imgClassList[toggle](activeIcon)
+            };
+
             const navClassList = queryNav.classList;
+            const imgClassList = queryNav.querySelector('img').classList;
+
             (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight)
-                ? navClassList.add(activeLink)
-                : navClassList.remove(activeLink);
+                ? toggleClass('add')
+                : toggleClass('remove');
         }
-    }
-    );
+    });
 }
+
+
 // Einbinden
 window.addEventListener('scroll', scrollActive);
 

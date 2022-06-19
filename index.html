@@ -1,32 +1,26 @@
 ---
 layout: main
-title: dataholix sultions GmbH
+title: dataholix solutions GmbH
 ---
 
-    <!--====== Header -->
-    {% include header.html %}
-    <main>
-        <!--=============== HOME ===============-->
-        {% include home.html %}
+<!--====== Header -->
+{% include header.html %}
+<main>
+    <!--=============== HOME ===============-->
+    {% include home.html %}
+    <!--=============== SKILLS ===============-->
+    {% include skills.html %}
 
-       
+    <!--=============== PORTFOLIO ===============-->
+    {% include blog.html %}
 
-        <!--=============== SKILLS ===============-->
-        {% include skills.html %}
+    <!--=============== ABOUT ===============-->
+    {% include about.html %}
 
-          <!--=============== PORTFOLIO ===============-->
-          {% include blog.html %}
-
-
-         <!--=============== ABOUT ===============-->
-         {% include about.html %}
-
-       
-        <!--=============== CONTACT ME ===============-->
-        {% include contact-me.html %}
-    </main>
-    <!--====== Section -->
-    <!--====== Section -->
-    <script src="{{ "/assets/scripts/main.js" | prepend: site.baseurl}}"></script>
-    <!-- <script type="module" src="{{ "/assets/scripts/particle/data.js" | prepend: site.baseurl}}"></script> -->
-
+    <!--=============== CONTACT ME ===============-->
+    {% include contact-me.html %}
+</main>
+<!--====== Section -->
+<!--====== Section -->
+<script src="{{ "/assets/scripts/main.js" | prepend: site.baseurl}}"></script>
+<!-- <script type="module" src="{{ "/assets/scripts/particle/data.js" | prepend: site.baseurl}}"></script> -->
