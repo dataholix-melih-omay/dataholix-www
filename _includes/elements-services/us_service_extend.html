@@ -1,25 +1,23 @@
 <div class="container-skills">
-  <div>
-    <img class="bg-icon" src="{{include.item.image_path | prepend: site.baseurl}}"
-      alt="Service icon {{include.item.alt}}" />
-  </div>
+    <div>
+        <img class="bg-icon" src="{{include.item.image_path | prepend: site.baseurl}}"
+            alt="Service icon {{include.item.alt}}" />
+    </div>
 
-  <div>
+    <div>
     <section class="spacing-p">
-      <strong>{{include.item.title}}</strong>
+        <strong>{{include.item.title}}</strong>
     </section>
 
     {%- for textblock in include.item.p -%}
-      <section class="spacing-p">{{textblock}}</section>
+        <section class="spacing-p">{{textblock}}</section>
     {%- endfor -%}
 
-   <h5>Unsere Services:</h5>
+    <h5>Unsere Services:</h5>
     
     {%- for service in include.item.services -%}
-      <section># {{service}}</section>
+        <section># {{service}}</section>
     {%- endfor -%}
- 
-  </div>
 
-
+    </div>
 </div>

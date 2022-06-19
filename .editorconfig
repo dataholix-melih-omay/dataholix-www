@@ -1,0 +1,10 @@
+# top-most EditorConfig file
+root = true
+
+[{*.html,*.css,*.scss}]
+indent_style = space
+indent_size = 4
+
+[{*.yml,*.json,Gemfile}]
+indent_style = space
+indent_size = 2

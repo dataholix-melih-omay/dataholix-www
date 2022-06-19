@@ -1,29 +1,26 @@
 <section class="container section section__height" id="blog">
-  <h2 class="section__title">Blog</h2>
-  <div class="flex-line"><div></div></div>
-
-  <div class="container-blog">
-    {% assign posts=site.posts | where:"lang", page.lang | count: 1%} 
-    {% for post in site.posts limit:1 %}
-    <a class="black" href="{{ post.url | prepend: site.baseurl}}"> 
-      {% if post.image_path != null and post.image_path != "" %}
-    <div>
-      <img
-        src="{{post.image_path | prepend: site.baseurl}}"
-        alt="Service icon {{post.sub_title}}"
-      />
+    <h2 class="section__title">Blog</h2>
+    <div class="flex-line">
+        <div></div>
     </div>
-    {% endif %}
-    <div>
-     
-       <p class="small-text">{{ post.date | date: "%-d %B %Y" }}</p> 
-       <p class="spacing-blog">{{ post.short_title }} </p>
-       <div class="short-text"> {{ post.content }}</div> 
-       
-     
 
-      {% endfor %}
-      <a href="blog.html">MEHR </a>
-    </div> </a>
-  </div>
+    {% assign posts=site.posts | where:"lang", page.lang%}
+    {% for post in site.posts limit: 1 %}
+    <div class="container-blog">
+        <a class="black" href="{{ post.url | prepend: site.baseurl}}">
+            {% if post.image_path != null and post.image_path != "" %}
+            <div>
+                <img src="{{post.image_path | prepend: site.baseurl}}" alt="Service icon {{post.sub_title}}" />
+            </div>
+            {% endif %}
+            <div>
+
+                <p class="small-text">{{ post.date | date: "%-d %B %Y" }}</p>
+                <p class="spacing-blog">{{ post.short_title }} </p>
+                <div class="short-text"> {{ post.content }}</div>
+                <a href="blog.html">MEHR </a>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
 </section>

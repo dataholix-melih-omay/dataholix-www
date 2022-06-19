@@ -1,15 +1,13 @@
 <div class="container-skills">
-  <div>
+<div>
     <img class="bg-icon"
-      src="{{include.item.image_path | prepend: site.baseurl}}"
-      alt="Service icon {{include.item.alt}}"
-    />
-  </div>
-  <div>
-    <section>
-      <strong>{{include.item.title}}</strong>
-    </section>
+        src="{{include.item.image_path | prepend: site.baseurl}}"
+        alt="Service icon {{include.item.alt}}"/>
+
+    </div>
+    <div>
+    <section> <strong>{{include.item.title}}</strong> </section>
     <section>{{include.item.content}}</section>
     <section>{{include.item.sub_title}}</section>
-  </div>
+    </div>
 </div>
