@@ -1,36 +1,36 @@
 <section class="container section section__height" id="home">
-  <section class="section__title">
-    <h1>Dein Digitalisierungs- Partner</h1>
-  </section>
-  <section class="section__title">
-    <h2 class="spacing">
-      für datengetriebene Lösungen. Profitiere von unserer
-      <span class="big-X">X</span>pertise.
-    </h2>
-  </section>
-
-  <section class="service-grid">
-    <section class="simple-flex">
-      <header class="solo-title">
-        Geschäftserfolg steigern mit Hilfe Deiner Daten
-      </header>
-      <br />
-      <p>
-        Optimierung von Prozessen und Systemlandschaften.  <br />
-        Gemeinsam finden wir die passenden Lösungen für den zukünftigen Erfolg.
-      </p>
+    <section class="section__title">
+        <h1>Dein Digitalisierungs- Partner</h1>
+    </section>
+    <section class="section__title">
+        <h2 class="spacing">
+            für datengetriebene Lösungen. Profitiere von unserer
+            <span class="big-X">X</span>pertise.
+        </h2>
     </section>
 
-    {% for service in site.data.home.de.services.items %} 
-    {% include elements-services/service.html item=service %} 
-    {% endfor %}
-  </section>
+    <section class="service-grid">
+        <section class="simple-flex">
+            <header class="solo-title">
+                Geschäftserfolg steigern mit Hilfe Deiner Daten
+            </header>
+            <br />
+            <p>
+                Optimierung von Prozessen und Systemlandschaften.  <br />
+                Gemeinsam finden wir die passenden Lösungen für den zukünftigen Erfolg.
+            </p>
+        </section>
 
-  <section class="flex-container">
-    {% include elements-services/nutzen.html %}
-  </section>
+        {% for service in site.data.home.de.services.items %} 
+        {% include elements-services/service.html item=service %} 
+        {% endfor %}
+    </section>
 
-  <section id="vertrauen">
-    {% include elements-services/vertrauen.html %}
-  </section>
+    <section class="flex-container">
+        {% include elements-services/nutzen.html %}
+    </section>
+
+    <section id="vertrauen">
+        {% include elements-services/vertrauen.html %}
+    </section>
 </section>
