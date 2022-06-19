@@ -13,9 +13,9 @@ function scrollActive() {
             queryNav = document.querySelector(`.nav__menu a[href*='${sectionId}']`);
         
         if (queryNav) {
-            const toggleClass = (toggle) => {
-                navClassList[toggle](activeLink);
-                imgClassList[toggle](activeIcon)
+            const toggleClass = (toggleFunction) => {
+                navClassList[toggleFunction](activeLink);
+                imgClassList[toggleFunction](activeIcon)
             };
 
             const navClassList = queryNav.classList;
