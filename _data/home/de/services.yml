@@ -3,15 +3,15 @@ items:
   - title: Data Analytics & Business Intelligence Lösungen
     image_path: /assets/images/svgs/analyse-orange.svg
     content: Deine Daten sind die Schätze von heute. Die Analyse, Extraktion, Transformation, Visualisierung un das Verständnis Deiner Daten ist Dein Kapital von morgen. Nutze Dein Datenpotential.
-
-  - title: Individual Software Development
+ 
+ - title: Individual Software Development
     image_path: /assets/images/svgs/individual-software-development-orange.svg
-    content: Ansprechendes Design, intuitive Bedienung, moderne IT-Architekturen führen zur einer höheren Kundenorientierung. Wir unterstützen dich bei intelligenten und nachhaltigen IT- Systemlösungen.
+    content: Manchmal hilft eine Standard Software nicht. Wir unterstützen dich bei intelligenten und nachhaltigen IT- Systemlösungen, die flexibel und  passgenau Deinen  gewünschten Funktionsumfang mit einer modernen und sicheren  IT- Lösung abbilden.   
   
   - title: Customer Experience
     image_path: /assets/images/svgs/up-orange.svg
-    content: Manchmal hilft eine Standard Software nicht. Wir unterstützen dich bei intelligenten und nachhaltigen IT- Systemlösungen, die flexibel und  passgenau Deinen  gewünschten Funktionsumfang mit einer modernen und sicheren  IT- Lösung abbilden.
-    
+    content: Ansprechendes Design, intuitive Bedienung, moderne IT-Architekturen führen zur einer höheren Kundenorientierung. Wir unterstützen dich bei intelligenten und nachhaltigen IT- Systemlösungen.
+  
   - title: Modern Cloud Solutions
     image_path: /assets/images/svgs/cloud-orange.svg
     content: Riesige Datenmengen. Skalierbarkeit. Flexibilität. Datensicherheit. Nur Schlagworte? Frage uns?
