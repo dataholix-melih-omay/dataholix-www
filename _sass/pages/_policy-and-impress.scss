@@ -4,13 +4,14 @@
     }
 
     .select {
-        background-color: red;
+        color: var(-- --text-color);
+        font-weight: bolder;
     }
   
         .container-policy-and-impress{
             margin-top:24px;
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: no-wrap;
             --margin: 1rem;
             --multiplier: calc(40rem - 100%);
           }
@@ -23,16 +24,21 @@
           }
           
           .container-policy-and-impress > :nth-child(1) {
-            min-width: calc(50% - (var(--margin) * 2));
+            min-width: calc(10% - (var(--margin) * 2));
             
           }
           
           .containe-policy-and-impress > :nth-child(2) {
-            min-width: calc(50% - (var(--margin) * 2));
+            min-width: calc(10% - (var(--margin) * 2));
           }
           
           
    
     
    
+}
+
+#impress,#policy{
+    color: var(--both-accent-color);
+    cursor: pointer;
 }
