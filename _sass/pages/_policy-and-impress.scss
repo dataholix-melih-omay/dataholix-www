@@ -6,4 +6,33 @@
     .select {
         background-color: red;
     }
+  
+        .container-policy-and-impress{
+            margin-top:24px;
+            display: flex;
+            flex-wrap: wrap;
+            --margin: 1rem;
+            --multiplier: calc(40rem - 100%);
+          }
+          
+          .container-policy-and-impress > *{
+            max-width: 100%;
+            flex-grow: 1;
+            flex-basis: calc(var(--multiplier) * 999);
+            margin: var(--margin);
+          }
+          
+          .container-policy-and-impress > :nth-child(1) {
+            min-width: calc(50% - (var(--margin) * 2));
+            
+          }
+          
+          .containe-policy-and-impress > :nth-child(2) {
+            min-width: calc(50% - (var(--margin) * 2));
+          }
+          
+          
+   
+    
+   
 }
