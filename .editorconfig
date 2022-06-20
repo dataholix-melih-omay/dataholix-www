@@ -5,6 +5,6 @@ root = true
 indent_style = space
 indent_size = 4
 
-[{*.yml,*.json,Gemfile}]
+[{*.yml,*.json,Gemfile,*rb}]
 indent_style = space
 indent_size = 2
