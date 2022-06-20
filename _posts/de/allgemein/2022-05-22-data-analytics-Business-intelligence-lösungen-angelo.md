@@ -1,9 +1,9 @@
 ---
 short_title: hashtags 
+layout: post
 lang: de
 image_path: 
 categories:
-- de
 - allgemein
 
 ---
