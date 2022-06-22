@@ -1,10 +1,10 @@
 {
-  "name": "dataholix-www",
-  "version": "1.0.0",
-  "description": "Wird nur für den VSCode editorconfig benötigt",
-  "author": "Melih Omay",
-  "license": "ISC",
-  "devDependencies": {
-    "editorconfig": "^0.15.3"
-  }
+    "name": "dataholix-www",
+    "version": "1.0.0",
+    "description": "Wird nur für den VSCode editorconfig benötigt",
+    "author": "Melih Omay",
+    "license": "ISC",
+    "devDependencies": {
+        "editorconfig": "^0.15.3"
+    }
 }

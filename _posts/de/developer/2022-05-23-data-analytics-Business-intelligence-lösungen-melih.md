@@ -4,7 +4,7 @@ title: WebAssembly und MicroService
 layout: post
 lang: de
 image_path: /assets/images/blog/WebAssembly.png
-quellenangabe: "url"
+quellenAngabe: "url"
 categories:
 - Programmierung
 

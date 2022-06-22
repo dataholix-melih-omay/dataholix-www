@@ -12,5 +12,8 @@ vendor
 # System
 .DS_Store
 
-# pachages
+# packages
 node_modules
+
+# private
+only-for-me-documents
