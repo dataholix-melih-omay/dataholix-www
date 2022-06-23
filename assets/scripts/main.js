@@ -11,7 +11,7 @@ function scrollActive() {
             sectionTop = current.offsetTop - 50,
             sectionId = current.getAttribute('id'),
             queryNav = document.querySelector(`.nav__menu a[href*='${sectionId}']`);
-        
+
         if (queryNav) {
             const toggleClass = (toggleFunction) => {
                 navClassList[toggleFunction](activeLink);
@@ -28,10 +28,8 @@ function scrollActive() {
     });
 }
 
-
 // Einbinden
 window.addEventListener('scroll', scrollActive);
-
 
 /*=============== Ändere Hintergrund Header ===============*/
 function scrollHeader() {
