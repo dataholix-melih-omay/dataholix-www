@@ -2,8 +2,9 @@
     function init() {
         const map = new ol.Map({
             view: new ol.View({
-                center: [0, 0],
-                zoom: 2
+                // center: [0, 0],
+                center: ol.proj.fromLonLat([11.54094, 48.12653, ]),
+                zoom: 18
             }),
             layers: [
                 new ol.layer.Tile({
@@ -16,3 +17,4 @@
     init();
 } () );
 
+// 481265393,115409431,
