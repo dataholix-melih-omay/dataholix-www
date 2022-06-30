@@ -1,7 +1,7 @@
 #about {
     img {
         max-width: 100%;
-        margin-bottom:16px
+        margin-bottom: 16px;
     }
     .container-about {
         display: flex;
@@ -9,19 +9,18 @@
         --margin: 1rem;
         --multiplier: calc(40rem - 100%);
         margin: calc(var(--margin) * -1);
-     }
-      
-      .container-about > *{
+    }
+
+    .container-about > * {
         max-width: 100%;
         flex-grow: 1;
         flex-basis: calc(var(--multiplier) * 999);
         margin: var(--margin);
-      }
-      
-      .container-about > :nth-child(1),
-      .container-about > :nth-child(2),
-      .container-about > :nth-child(3) {
+    }
+
+    .container-about > :nth-child(1),
+    .container-about > :nth-child(2),
+    .container-about > :nth-child(3) {
         min-width: calc(33% - (var(--margin) * 2));
-      }
-     
+    }
 }

@@ -9,12 +9,12 @@
         <strong>{{include.item.title}}</strong>
     </section>
 
-    {%- for textblock in include.item.p -%}
-        <section class="spacing-p">{{textblock}}</section>
+    {%- for textBlock in include.item.p -%}
+        <section class="spacing-p">{{textBlock}}</section>
     {%- endfor -%}
 
     <h5>Unsere Services:</h5>
-    
+
     {%- for service in include.item.services -%}
         <section># {{service}}</section>
     {%- endfor -%}
