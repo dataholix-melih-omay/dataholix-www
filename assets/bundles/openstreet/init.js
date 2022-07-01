@@ -3,6 +3,8 @@
         const latLonCoordinate = [11.54094, 48.12653 ];
         const latLonCenter = ol.proj.fromLonLat(latLonCoordinate);
         const view = new ol.View({
+            enableRotation: false,
+            enableZoom: false,
             center: latLonCenter,
             zoom: 18
         });
@@ -20,12 +22,16 @@
 
         const map = new ol.Map({
             view: view,
+            interactions: [],
             layers: [
                 new ol.layer.Tile({
                     source: new ol.source.OSM
                 })
             ],
-            target: "basic-map"
+            target: "basic-map",
+            controls: ol.control.defaults({
+                zoom: true
+            })
         });
 
 
