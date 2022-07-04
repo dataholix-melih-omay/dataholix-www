@@ -1,4 +1,5 @@
 #home {
+
     section {
         h1 {
             color: var(--title-color);
@@ -19,8 +20,8 @@
         padding: 15px;
         /* margin: 15px; */
         img {
-            height:48px;
-            width:48px;
+            height: 48px;
+            width: 48px;
         }
 
         header {
@@ -89,14 +90,14 @@
         margin-top: 72px;
         .section--title {
             font-size: 2em;
-            text-align:center;
+            text-align: center;
             margin-bottom: 32px;
         }
         .vertrauen-container-grid {
             display: grid;
             column-gap: 1.25rem;
             grid-template-columns: auto auto auto auto;
-            align-content:space-between;
+            align-content: space-between;
             grid-template-areas:
                 "head  head head  head"
                 "one   four seven ten"
@@ -115,65 +116,62 @@
             > :nth-child(2) {
                 justify-self: center;
                 grid-area: one;
-                text-align:center
+                text-align: center;
             }
             > :nth-child(3) {
                 justify-self: center;
                 grid-area: two;
-                text-align:center
+                text-align: center;
             }
             > :nth-child(4) {
                 justify-self: center;
                 grid-area: three;
-                text-align:center
+                text-align: center;
             }
             > :nth-child(5) {
                 justify-self: center;
                 grid-area: four;
-                text-align:center
+                text-align: center;
             }
             > :nth-child(6) {
                 justify-self: center;
                 grid-area: five;
-                text-align:center
+                text-align: center;
             }
             > :nth-child(7) {
                 justify-self: center;
                 grid-area: six;
-                text-align:center
+                text-align: center;
             }
             > :nth-child(8) {
                 justify-self: center;
                 grid-area: seven;
-                text-align:center
+                text-align: center;
             }
             > :nth-child(9) {
                 justify-self: center;
                 grid-area: eight;
-                text-align:center
+                text-align: center;
             }
             > :nth-child(10) {
                 justify-self: center;
                 grid-area: nine;
-                text-align:center
+                text-align: center;
             }
             > :nth-child(11) {
                 justify-self: center;
                 grid-area: ten;
-                text-align:center
+                text-align: center;
             }
             > :nth-child(12) {
                 grid-area: eleven;
-                text-align:center
+                text-align: center;
             }
             > :nth-child(13) {
                 justify-self: center;
                 grid-area: twelve;
-                text-align:center
+                text-align: center;
             }
         }
     }
 }
-
-
-

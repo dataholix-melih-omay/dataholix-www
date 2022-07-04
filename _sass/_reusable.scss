@@ -1,3 +1,22 @@
+.imageContainer {
+    width: 10px;
+    min-height: 30vw;
+    overflow: visible;
+    position: relative;
+}
+
+.imageCenterer {
+    position: absolute;
+    z-index:  -1;
+    img, video {
+        min-width: 100vw;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+
 /* ===== Wiederverwendbare CSS Klassen */
 .section {
     padding: 2rem 0 2rem;

@@ -18,6 +18,18 @@
 </head>
 
 <body>
+    <div class="imageContainer">
+        <div class="imageCenterer">
+        <video autoplay="" muted="" playsinline="" preload="metadata" id="vid" loop="true">
+            <source src="{{"/assets/videos/stock-footage-abstract-tech-earth-globalization-in-d-motion-graphic-concept-transmit-ai-networking-on-fiber.webm" | prepend: site.baseurl}}" type="video/webm" />
+            <track label="English" kind="captions" srclang="en" src="resources/myvideo-en.vtt" default>
+            Sorry, your browser doesn't support embedded videos,
+            but don't worry, you can <a href="{{"/assets/videos/stock-footage-abstract-tech-earth-globalization-in-d-motion-graphic-concept-transmit-ai-networking-on-fiber.webm" | prepend: site.baseurl}}">download it</a>
+            and watch it with your favorite video player!
+        </video>
+        </div>
+    </div>
+
     {{ content }}
     <script src="{{"/assets/bundles/consents/cookie-consent.js" | prepend: site.baseurl}}" defer></script>
     <script src="{{"/assets/bundles/consents/cookie-consent-init.js" | prepend: site.baseurl}}" defer></script>

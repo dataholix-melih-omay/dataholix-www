@@ -83,10 +83,11 @@ a {
     text-decoration: none;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+// ! Ist global stört aber an andere stelle
+// img {
+//     max-width: 100%;
+//     height: auto;
+// }
 a {
     color:var(--both-accent-color);
 }
