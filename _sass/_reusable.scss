@@ -1,7 +1,4 @@
 .imageContainer {
-    width: 10px;
-    min-height: 30vw;
-    overflow: visible;
     position: relative;
 }
 
@@ -9,12 +6,16 @@
     position: absolute;
     z-index:  -1;
     width: 100vw;           /* Verhindert das im mobile Seite das Bild oder video zu groß wird. */
-    overflow: hidden;       /* Verhindert das im mobile Seite das Bild oder video zu groß wird. */
+    overflow: hidden;  /* Verhindert das im mobile Seite das Bild oder video zu groß wird. */
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
     img, video {
         min-width: 100vw;
         display: block;
         margin: 0 auto;
     }
+
+ 
     // ! geht noch nicht
     video:before {
         content: '';
@@ -29,6 +30,7 @@
         mix-blend-mode: screen;
     }
 }
+
 
 
 

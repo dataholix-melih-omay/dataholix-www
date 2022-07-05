@@ -47,9 +47,7 @@ html {
 }
 
 body {
-	background: linear-gradient(-45deg, #f5f3f1, var(--body-color),#eee, var(--body-color));
-	background-size: 400% 1300%;
-	animation: gradient 10s ease infinite;
+	background:  var(--body-color);
 	height: 100vh;
 }
 
