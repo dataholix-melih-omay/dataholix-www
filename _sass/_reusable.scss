@@ -4,6 +4,7 @@
 
 .imageCenterer {
     position: absolute;
+    top:-36px;
     z-index:  -1;
     width: 100vw;           /* Verhindert das im mobile Seite das Bild oder video zu groß wird. */
     overflow: hidden;  /* Verhindert das im mobile Seite das Bild oder video zu groß wird. */
