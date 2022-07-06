@@ -10,7 +10,7 @@
     overflow: hidden;  /* Verhindert das im mobile Seite das Bild oder video zu groß wird. */
     -webkit-mask-image: linear-gradient(black, transparent);
     mask-image: linear-gradient(black, transparent);
-    img, video {
+    video {
         min-width: 100vw;
         display: block;
         margin: 0 auto;
