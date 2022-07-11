@@ -1,8 +1,4 @@
 #blog {
-    img {
-        max-width: 100%;
-        height: auto;
-    }
     .section--title {
         font-size: 1.8em;
         text-align: center;
@@ -14,6 +10,10 @@
         flex-wrap: wrap;
         --margin: 1rem;
         --multiplier: calc(40rem - 100%);
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
 
     .container-blog > * {

@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: main_blog
 title: dataholix solutions GmbH Blog archive
 ---
 
@@ -8,33 +8,31 @@ title: dataholix solutions GmbH Blog archive
 <main>
     <section class="container section section__height" id="page_blog">
 
-        <h2 class="section__title">Blog</h2>
+        <h2 class="section__title">Blog Einträge nach Zeit Sortiert</h2>
         <div class="flex-line">
             <div></div>
         </div>
-        {% assign posts=site.posts | where:"lang", page.lang | count: 1%} 
+        {% assign posts=site.posts | where:"lang", page.lang | count: 1%}
         {% for post in site.posts %}
         <div class="container-pageblog">
-            
             {% if post.image_path != null and post.image_path != "" %}
-            
+
             <div>
                 <img
-                src="{{post.image_path | prepend: site.baseurl}}"
-                alt="Service icon {{post.sub_title}}"
-                />
+                    src="{{post.image_path | prepend: site.baseurl}}"
+                    alt="Service icon {{post.sub_title}}" />
             </div>
-            
+
             {% endif %}
-            <div>            
-                <p class="small-text">{{ post.date | date: "%-d %B %Y" }}</p> 
+            <div>
+                <p class="small-text">{{ post.date | date: "%-d %B %Y" }}</p>
                 <p class="spacing-blog">
                     <a href="">{{ post.short_title }}
 
                     </a>
                 </p>
-                <section> {{ post.content }}</section> 
-            </div> 
+                <section>{{ post.content }}</section>
+            </div>
         </div>
         <div class="blog-line">
             <div></div>
@@ -46,4 +44,3 @@ title: dataholix solutions GmbH Blog archive
 <!--====== Section -->
 <!--====== Section -->
 <script src="{{ '/assets/scripts/main.js' | prepend: site.baseurl}}"></script>
-<!-- <script type="module" src="{{ "/assets/scripts/particle/data.js" | prepend: site.baseurl}}"></script> -->

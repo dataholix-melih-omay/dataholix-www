@@ -8,36 +8,51 @@
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="#home" class="nav__link">
-                        <em class='bx bx-home-alt nav__icon'></em>
-                        <span class="nav__name"><a href="{{"/" | prepend: site.baseurl}}">Home</a></span>
+                    <a href="{{"/" | | prepend: site.baseurl}}" class="nav__link">
+                        <picture>
+                            <source srcset="./assets/images/navigation/home-white.svg" media="(prefers-color-scheme: dark)">
+                            <img src="./assets/images/navigation/home.svg" alt="Menu Home" class="nav__icon nav__icon-active">
+                        </picture>
+                        <span class="nav__name">Home</span>
                     </a>
                 </li>
 
                 <li class="nav__item">
-                    <a href="#skills" class="nav__link">
-                        <em class='bx bx-book-alt nav__icon'></em>
-                        <span class="nav__name">Unsere Services</span>
+                    <a href="{{"/#skills" | prepend: site.baseurl}}" class="nav__link">
+                        <picture>
+                            <source srcset="./assets/images/navigation/service-01-white.svg" media="(prefers-color-scheme: dark)">
+                            <img src="./assets/images/navigation/service-01.svg" alt="Menu Unsere Service" class="nav__icon">
+                        </picture>
+                        <span class="nav__name">Unser Service</span>
                     </a>
                 </li>
 
                 <li class="nav__item">
                     <a href="#blog" class="nav__link active-link">
-                        <em class='bx bx-briefcase-alt nav__icon'></em>
+                        <picture>
+                            <source srcset="./assets/images/navigation/blog-01-white.svg" media="(prefers-color-scheme: dark)">
+                            <img src="./assets/images/navigation/blog-01.svg" alt="Menu Blog" class="nav__icon">
+                        </picture>
                         <span class="nav__name">Blog</span>
                     </a>
                 </li>
 
                 <li class="nav__item">
-                    <a href="#about" class="nav__link">
-                        <em class='bx bx-user nav__icon'></em>
+                    <a href="{{"/#about" | prepend: site.baseurl}}" class="nav__link">
+                        <picture>
+                            <source srcset="./assets/images/navigation/wir-white.svg" media="(prefers-color-scheme: dark)">
+                            <img src="./assets/images/navigation/wir.svg" alt="Menu Über uns" class="nav__icon">
+                        </picture>
                         <span class="nav__name">Wer wir sind</span>
                     </a>
                 </li>
 
                 <li class="nav__item">
-                    <a href="#contactme" class="nav__link">
-                        <em class='bx bx-message-square-detail nav__icon'></em>
+                    <a href="{{"/#contactme" | prepend: site.baseurl}}" class="nav__link">
+                        <picture>
+                            <source srcset="./assets/images/navigation/contact-white.svg" media="(prefers-color-scheme: dark)">
+                            <img src="./assets/images/navigation/contact.svg" alt="Menu Kontakt" class="nav__icon">
+                        </picture>
                         <span class="nav__name">Kontakt</span>
                     </a>
                 </li>

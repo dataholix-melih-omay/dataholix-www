@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--====== BoxIcons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--====== CSS -->
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/bundles/consents/cookie-consent.css" | prepend: site.baseurl}}" media="print" onload="this.media='all'">
+
+    <title>{{page.title}}</title>
+</head>
+
+<body>
+    {{ content }}
+    <script src="{{"/assets/bundles/consents/cookie-consent.js" | prepend: site.baseurl}}" defer></script>
+    <script src="{{"/assets/bundles/consents/cookie-consent-init.js" | prepend: site.baseurl}}" defer></script>
+
+</body>
+</html>
