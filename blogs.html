@@ -1,37 +1,38 @@
 ---
 layout: main_blog
-title: dataholix solutions GmbH Blog archive
+title: dataholix solutions GmbH Blog Archive
 ---
 
 <!--====== Header -->
 {% include header-static.html %}
 <main>
     <section class="container section section__height" id="page_blog">
-
-        <h2 class="section__title">Blog Einträge nach Zeit Sortiert</h2>
+        <h2 class="section__title">Blog Übersicht</h2>
         <div class="flex-line">
             <div></div>
         </div>
-        {% assign posts=site.posts | where:"lang", page.lang | count: 1%}
-        {% for post in site.posts %}
+        {% assign posts=site.posts | where:"lang", page.lang | count: 1%} {% for
+        post in site.posts %}
         <div class="container-pageblog">
             {% if post.image_path != null and post.image_path != "" %}
 
             <div>
                 <img
                     src="{{post.image_path | prepend: site.baseurl}}"
-                    alt="Service icon {{post.sub_title}}" />
+                    alt="Service icon {{post.sub_title}}"
+                />
+                {{post.quellenAngabe}} 
             </div>
 
             {% endif %}
             <div>
-                <p class="small-text">{{ post.date | date: "%-d %B %Y" }}</p>
+                <p class="small-text-10">{{ post.date | date: "%-d %B %Y" }}</p>
                 <p class="spacing-blog">
-                    <a href="">{{ post.short_title }}
-
+                    <a href="{{ post.url | prepend: site.baseurl}}">
+                        <h3>{{ post.title }}</h3>
                     </a>
                 </p>
-                <section>{{ post.content }}</section>
+                <section class="short-text-10">{{ post.content }}</section>
             </div>
         </div>
         <div class="blog-line">
@@ -39,7 +40,6 @@ title: dataholix solutions GmbH Blog archive
         </div>
         {% endfor %}
     </section>
-
 </main>
 <!--====== Section -->
 <!--====== Section -->

@@ -7,7 +7,7 @@
     {% assign posts=site.posts | where:"lang", page.lang%}
     {% for post in site.posts limit: 1 %}
     <div class="container-blog">
-        <a class="black" href="{{ post.url | prepend: site.baseurl}}">
+        
             {% if post.image_path != null and post.image_path != "" %}
             <div>
                 <img src="{{post.image_path | prepend: site.baseurl}}" alt="Service icon {{post.sub_title}}" />
@@ -16,11 +16,12 @@
             <div>
 
                 <p class="small-text">{{ post.date | date: "%-d %B %Y" }}</p>
-                <p class="spacing-blog">{{ post.short_title }} </p>
+                <a href="{{ post.url | prepend: site.baseurl}}"> <h2 class="spacing-blog">{{ post.title }} </h2> </a>
                 <div class="short-text"> {{ post.content }}</div>
-                <a href="blogs.html">MEHR </a>
+                <br />
+                <a href="blogs.html">Blog Übersicht</a>
             </div>
-        </a>
+       
     </div>
     {% endfor %}
 </section>

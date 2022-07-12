@@ -13,6 +13,7 @@
         img {
             max-width: 100%;
             height: auto;
+            
         }
     }
 
@@ -40,6 +41,14 @@
     overflow: hidden;
     margin-bottom: 8px;
 }
+.short-text-10 {
+    display: inline-block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
 .small-text {
     font-size: small;
 }
@@ -53,4 +62,10 @@ a.black {
 }
 .spacing-blog {
     padding: 8px 0;
+}
+
+.back{
+    font-size:larger;
+    text-align: end;
+
 }
