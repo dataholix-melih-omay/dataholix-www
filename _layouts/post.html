@@ -1,29 +1,35 @@
 ---
-layout: main
+layout: main_blog
 ---
 
 <!--====== Header -->
-{% include header-static.html %}
+{%- include header-static.html -%}
 <main>
-    <section class="container section section__height" id="page_blog">
+    <section class="container section section__height" id="blog">
+        <div class="container-blog">
 
-        {% if page.image_path != null and page.image_path != "" %}
-        <div>
-            <img src="{{page.image_path | prepend: site.baseurl}}" alt="Service icon {{page.sub_title}}" />
+            {% if page.image_path != null and page.image_path != "" %}
+            <div>
+                <img src="{{page.image_path | prepend: site.baseurl}}" alt="Service icon {{page.sub_title}}" />
+            </div>
+            {% endif %}
+
+            <div>
+                <p class="small-text">{{ page.date | date: "%-d %B %Y" }}</p>
+                <p class="spacing-blog">
+                    <a href="">{{ page.short_title }}
+
+                    </a>
+                </p>
+                <section>{{ content }}</section>
+            </div>
         </div>
-        {% endif %}
-
-        {{page.title}}
-        <p>{{ page.date | date: "%-d %B %Y" }}</p> 
-        {{ content}}
-
-        <br>
-        {% if page.previous %}
-            <a href="{{page.previous.url | prepend: site.baseurl}}">previous -> {{page.previous.title}}</a>
-        {% endif %}
-        <br>
-        {% if page.next %}
-            <a href="{{page.next.url | prepend: site.baseurl}}">next -> {{page.next.title}}</a>
-        {% endif %}
     </section>
+    {% if page.previous %}
+        <a href="{{page.previous.url | prepend: site.baseurl}}">previous -> {{page.previous.title}}</a>
+    {% endif %}
+    <br>
+    {% if page.next %}
+        <a href="{{page.next.url | prepend: site.baseurl}}">next -> {{page.next.title}}</a>
+    {% endif %}
 </main>
