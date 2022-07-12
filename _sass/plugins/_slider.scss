@@ -1,0 +1,26 @@
+#slider_plugin {
+    $radius: 1.5rem;
+    .epic-slider {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        max-width: 100rem;
+        background-color: red;
+        aspect-ratio: 20/10;
+        .epic-slider-view {
+            width: 80%;
+            border-radius: $radius;
+            overflow: hidden;
+            position: relative;
+            background-color: aqua;
+        }
+        .epic-slider-preview {
+            width: 20%;
+            background-color: yellow;
+            height: 100%;
+            margin: 0 0 0 1rem;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}
