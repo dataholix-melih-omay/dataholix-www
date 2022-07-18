@@ -4,7 +4,7 @@ title: dataholix solutions GmbH Blog Archive
 ---
 
 <!--====== Header -->
-{% include header-static.html %}
+{% include header.html %}
 <main>
     <section class="container section section__height" id="page_blog">
         <h2 class="section__title">Blog Übersicht</h2>
@@ -21,7 +21,7 @@ title: dataholix solutions GmbH Blog Archive
                     src="{{post.image_path | prepend: site.baseurl}}"
                     alt="Service icon {{post.sub_title}}"
                 />
-                {{post.quellenAngabe}} 
+                {{post.quellenAngabe}}
             </div>
 
             {% endif %}
