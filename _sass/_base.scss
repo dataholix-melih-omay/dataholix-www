@@ -18,6 +18,7 @@
     --text-color:  hsl(var(--hue),   8%, 35%);
     --body-color:  hsl(var(--hue), 100%, 99%);
 
+    --contrast-color: var(--background-color);
     --container-color: var(--background-color);
     --article-background: hsl(var(--accent_hue), 0%, 100%);
 

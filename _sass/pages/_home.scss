@@ -11,14 +11,14 @@
 
         h1 {
             text-align: left;
-            color: var(--title-color);
+            color: var(--contrast-color);
             font-size: var(--font-size-xxl);
             text-shadow: 2px 2px 0px #000, 5px 4px 0px rgba(0, 0, 0, 0.50);
         }
 
         h2 {
             padding: 4rem 0 0 24rem;
-            color: var(--title-color);
+            color: var(--contrast-color);
             font-size: var(--font-size-xl);
             text-shadow: 2px 2px 0px #000, 4px 3px 0px rgba(0, 0, 0, 0.50);
             margin-bottom: var(--font-size-xxxl);
