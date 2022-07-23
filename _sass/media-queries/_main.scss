@@ -149,18 +149,14 @@
         display: none;
     }
 
-    
-
-
     #contactme {
 
     .container-contact > :nth-child(1) {
             min-width: calc(40% - (var(--margin) * 2));
         }
-    
         .container-contact > :nth-child(2) {
             min-width: calc(60% - (var(--margin) * 2));
-            
+
         }
     }
 }
