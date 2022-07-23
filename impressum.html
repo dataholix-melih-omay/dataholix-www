@@ -6,15 +6,16 @@ title: dataholix solutions GmbH Impressum
 <!--====== Header -->
 {% include header.html %}
 <main>
-    <section class="container section section__height" id="impressum">
-        <h2 class="section__title">Impressum</h2>
-        <div class="flex-line">
-            <div></div>
+    <section class="" id="policy-and-impress">
+        <h2>Impressum</h2>
+        <div class="container-policy-and-impress">
+            <div>{% include impress.html %}</div>
         </div>
-        {% include policy-and-impress.html %}
+        <h2>Datenschutz</h2>
+        <div class="container-policy-and-impress">
+            <div>{% include policy.html %}</div>
+        </div>
     </section>
+
+    <script src="{{ '/assets/scripts/main.js' | prepend: site.baseurl}}"></script>
 </main>
-<!--====== Section -->
-<!--====== Section -->
-<script src="{{ '/assets/scripts/main.js' | prepend: site.baseurl}}"></script>
-<script src="{{ "/assets/scripts/policy-and-impress.js" | prepend: site.baseurl}}"></script>

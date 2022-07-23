@@ -1,17 +1,14 @@
 #policy-and-impress {
-    .invisible {
-        display: none;
-    }
-
-    .select {
-        color: var(-- --text-color);
-        font-weight: bolder;
-    }
+   
+    background: rgb(7,69,101);
+    background: linear-gradient(143deg, rgba(7,69,101,0.8548012955182073) 17%, rgba(0,0,0,1) 100%);
+    padding: 0 var(--font-size-xxl);
+    padding-bottom:  var(--font-size-xxxl);
 
     .container-policy-and-impress {
         margin-top: 24px;
         display: flex;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         --margin: 1rem;
         --multiplier: calc(40rem - 100%);
     }
@@ -30,10 +27,9 @@
     .container-policy-and-impress > :nth-child(2) {
         min-width: calc(10% - (var(--margin) * 2));
     }
+    h2{
+        padding-top: var(--font-size-xxl);
+    }
 }
 
-#impress,
-#policy {
-    color: var(--both-accent-color);
-    cursor: pointer;
-}
+
