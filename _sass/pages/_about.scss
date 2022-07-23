@@ -1,26 +1,59 @@
 #about {
+    background-color: white;
+    padding: 0 10rem;
     img {
-        max-width: 100%;
+        width: 50%;
+        border-radius: 50%;
         margin-bottom: 16px;
     }
     .container-about {
         display: flex;
         flex-wrap: wrap;
-        --margin: 1rem;
+        --margin: var(--font-size-xxl);
         --multiplier: calc(40rem - 100%);
-        margin: calc(var(--margin) * -1);
+       
     }
 
     .container-about > * {
-        max-width: 100%;
         flex-grow: 1;
         flex-basis: calc(var(--multiplier) * 999);
         margin: var(--margin);
+        border-radius: 2rem;
+        color:white!important;
+       
     }
 
     .container-about > :nth-child(1),
     .container-about > :nth-child(2),
     .container-about > :nth-child(3) {
-        min-width: calc(33% - (var(--margin) * 2));
+        min-width: calc(20% - (var(--margin) * 2));
+        text-align: center;
+        padding:3rem 1rem;   
     }
+    .melih-omay{
+        background: radial-gradient(circle, rgba(7,69,101,0.8548012955182073) 20%, rgba(0,0,0,1) 100%),
+        url("../images/about/melih_omay.webp") no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .oliver-unger{
+        background: radial-gradient(circle, rgba(7,69,101,0.8548012955182073) 20%, rgba(0,0,0,1) 100%),
+        url("../images/about/oliver_unger.webp") no-repeat top center ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .angelo-pizzulli{
+        background: radial-gradient(circle, rgba(7,69,101,0.8548012955182073) 20%, rgba(0,0,0,1) 100%),
+        url("../images/about/angelo_pizzulli.webp") no-repeat top center ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .small
+    {width:3rem}
 }

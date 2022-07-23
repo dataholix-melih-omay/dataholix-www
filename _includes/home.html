@@ -1,42 +1,79 @@
-<section class="container section section__height" id="home">
-    <section class="section__title">
+<section id="home">
+    <div class="imageContainer">
+        <div class="imageCenterer">
+        <video autoplay="" muted="" playsinline="" preload="metadata" id="vid" loop="true">
+            <source src="{{"/assets/videos/1056171731-preview.mp4" | prepend: site.baseurl}}" type="video/mp4" />
+            <!-- <track label="English" kind="captions" srclang="en" src="resources/myvideo-en.vtt" default> -->
+            Sorry, your browser doesn't support embedded videos,
+            but don't worry, you can <a href="{{"/assets/videos/1056171731-preview.mp4" | prepend: site.baseurl}}">download it</a>
+            and watch it with your favorite video player!
+        </video>
+        </div>
+    </div>
+
+    <section>
         <h1>Dein Digitalisierungs - Partner</h1>
+        <h1>
+            für datengetriebene Lösungen
+        </h1>
+        <h2>
+           Profitiere von unserer <span class="big-X">X</span>pertise.
+        </h2>
         <div id="testId">
             <script type="text/plain" data-cookiecategory="analytics">
                 document.getElementById('testId').innerText = "Analytics Ich erscheine nur wen ich zustimme!";
             </script>
         </div>
-
-    </section>
-    <section class="section__title">
-        <h2 class="spacing">
-            für datengetriebene Lösungen. Profitiere von unserer 
-            <span class="big-X">X</span>pertise.
-        </h2>
     </section>
 
-    <section class="service-grid">
-        <section class="simple-flex">
-            <header class="solo-title">
-                Geschäftserfolg steigern mit Hilfe Deiner Daten
-            </header>
-            <br />
-            <p>
-                Optimierung von Prozessen und Systemlandschaften.  <br />
-                Gemeinsam finden wir die passenden Lösungen für den zukünftigen Erfolg.
-            </p>
-        </section>
+ </section>   
+ 
+ 
+ 
 
-        {% for service in site.data.home.de.services.items %}
-        {% include elements-services/service.html item=service %}
-        {% endfor %}
+    <section class="content-icons" >
+        <div class="prozent">
+            <div class="div1">
+                <input class="input-home" type="email" placeholder="eMail Adresse">
+                <button>Schreib uns!</button>
+            </div>
+            <div class="div2">
+                <div><span>350 </span>erfolgreiche</div>
+                <div>IT Projekte</div>
+            </div>
+            <div class="div3">
+                <div><span>56 </span>Jahre</div>
+                <div> Expertise</div> 
+            </div>
+            <div class="div4">
+                <div><span>23% </span>reduzierte </div>
+                <div> Kosten</div>
+             </div>
+        </div>
+       
+        <div>
+            <div class="icons">
+                <div class="div1"><img src="{{"/assets/images/svgs/cloud-orange.svg" | prepend: site.baseurl}}"></div>
+                <div class="div2"> <img src="{{"/assets/images/svgs/gemeinsam-orange.svg" | prepend: site.baseurl}}"></div>
+                <div class="div3"><img src="{{"/assets/images/svgs/training-orange.svg" | prepend: site.baseurl}}"></div>
+                <div class="div4"><img src="{{"/assets/images/svgs/up-orange.svg" | prepend: site.baseurl}}"></div>
+                <div class="div5"> <img src="{{"/assets/images/svgs/individual-software-development-orange.svg" | prepend: site.baseurl}}"></div>
+                <div class="div6"> <img src="{{"/assets/images/svgs/analyse-orange.svg" | prepend: site.baseurl}}"></div>
+            </div>
+        </div>
     </section>
+       
+    <section class="claim">
+        <div class="text">Zukunftssicher und langfristig wachsen mit dataholix.</div>
+        <div class="pillars">
+            3 Säulen
+        </div>
+  
+    </section>
+  
 
-    <section class="flex-container">
-        {% include elements-services/nutzen.html %}
-    </section>
+    
+        
 
-    <section id="vertrauen">
-        {% include elements-services/vertrauen.html %}
-    </section>
-</section>
+    
+

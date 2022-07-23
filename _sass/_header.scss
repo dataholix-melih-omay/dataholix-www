@@ -3,8 +3,41 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     background-color: var(--container-color);
     z-index: var(--z-fixed);
-    transition:.4s;
+    transition: .4s;
+
+    .container-header {
+        display: grid;
+        grid-template-columns: 200px 1fr auto auto;
+        grid-template-rows: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-header>* {
+        align-items: center;
+    }
+
+
+
+    .container-header> :nth-child(4) {
+        background-color: var(--first-color);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+        font-weight: bolder;
+        color: black;
+        padding: 0 var(--font-size-base);
+        text-shadow: 1px 0px 0px #ffffff;
+        margin-left: var(--font-size-base);
+
+        &:hover {
+            background-color: white;
+            text-shadow: 1px 0px 0px var(--first-color);
+        }
+
+    }
 }

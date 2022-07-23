@@ -1,5 +1,6 @@
-<div>
+<div class="{{include.item.css_name}}">
     <img src={{ include.item.image_path | prepend: site.baseurl}} alt="Person {{include.item.name}}">
     <p><strong>{{include.item.name}}</strong></p>
     <p>{{include.item.title}}<p>
+    <p><img class="small" src="{{"/assets/images/svgs/email.svg" | prepend: site.baseurl}}"></p>
 </div>

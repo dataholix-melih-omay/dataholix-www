@@ -1,12 +1,15 @@
 items:
   - image_path: /assets/images/about/oliver_unger.webp
     name: Oliver Unger
-    title: Co-Founder & Managing Director & CEO
+    title: Chief Executive Officer
+    css_name: oliver-unger
   
   - image_path: /assets/images/about/melih_omay.webp
     name: Melih Omay
-    title: Co-Founder & Managing Director Software Development
+    title: Chief Development Architect
+    css_name: melih-omay
 
   - image_path: /assets/images/about/angelo_pizzulli.webp
     name: Angelo Pizzulli
-    title: Co-Founder & Managing Director Sales & Operations
+    title: Chief Sales & Operations
+    css_name: angelo-pizzulli

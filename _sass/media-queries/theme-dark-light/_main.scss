@@ -4,20 +4,18 @@
         --sat: 100%;
 
         --background-color: #101012;
-        --first-color:     hsl(var(--hue), var(--sat), 40%);
+        --first-color:     hsl(var(--hue), var(--sat), 48%);
         --first-color-alt: hsl(var(--hue), var(--sat), 36%);
 
         --title-color: hsl(var(--hue),  100%, 100%);
-        --text-color:  hsl(var(--hue),   8%, 80%);
+        --text-color:  hsl(var(--hue),   8%, 100%);
         --body-color:  hsl(var(--hue), 0%, 10%);
 
         --container-color: var(--background-color);
         --article-background: hsl(240, 5%, 9%);
     }
     body {
-        background: linear-gradient(-45deg, #2c2c2c, var(--body-color),#2c2c2c, var(--body-color));
-        background-size: 400% 1000%;
-        animation: gradient 10s ease infinite;
+        background:  var(--body-color);
         height: 100vh;
     }
 }

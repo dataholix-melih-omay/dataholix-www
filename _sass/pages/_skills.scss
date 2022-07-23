@@ -1,43 +1,60 @@
 #skills {
-   .section--title {
-        font-size: 1.8em;
-        text-align: center;
-    }
-
+    background: radial-gradient(circle, rgba(7, 69, 101, 0.8548012955182073) 20%, rgba(0, 0, 0, 1) 100%);
     .container-skills {
-        margin-top:24px;
+
         display: flex;
         flex-wrap: wrap;
-        --margin: 1rem;
+        --margin: var(--font-size-xxl);
         --multiplier: calc(40rem - 100%);
-      }
-      
-      .container-skills > *{
+    }
+
+    .container-skills>* {
         max-width: 100%;
         flex-grow: 1;
         flex-basis: calc(var(--multiplier) * 999);
         margin: var(--margin);
-      }
-      
-      .container-skills > :nth-child(1) {
-        min-width: calc(10% - (var(--margin) * 2));
-        
-      }
-      
-      .container-skills > :nth-child(2) {
-        min-width: calc(90% - (var(--margin) * 2));
-      }
-      .bg-icon{ 
-        border-radius: 4px;
-        background-color:  var(--both-accent-color);
-        padding:4px;
-        height: 50px;
-        width:50px
-    }  
-    h5{
-        padding:16px 0 4px 0;
-        
-    }   
-}
+    }
 
-.spacing-p {padding-bottom: 8px;}
+    .container-skills> :nth-child(1) {
+        min-width: calc(45% - (var(--margin) * 2));
+
+        h1 {
+            padding-top: var(--font-size-xxl);
+        }
+
+        p {
+            padding-left: var(--font-size-xxl);
+        }
+
+    }
+
+    .container-skills> :nth-child(2) {
+        min-width: calc(55% - (var(--margin) * 2));
+
+        .container-img {
+            img {
+                width: 30%;
+            }
+        };
+
+        .container-text {
+            margin-top: -var(--font-size-xxxl);
+            ;
+            margin-left: var(--font-size-xxxl);
+            background: rgb(7, 69, 101);
+            background: linear-gradient(153deg, rgba(7, 69, 101, 0.8548012955182073) 2%, rgba(0, 0, 0, 1) 100%);
+            border-radius: var(--font-size-base);
+            padding: var(--font-size-base);
+            border: 1px solid #08496C;
+        }
+    }
+
+    h1 {
+        background: #b2cff5;
+        background: -webkit-linear-gradient(to right, #b2cff5, #a4f9cd);
+        background: linear-gradient(to right, #b2cff5, #a4f9cd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+}

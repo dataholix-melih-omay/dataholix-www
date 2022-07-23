@@ -1,180 +1,183 @@
 #home {
 
+
     section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+        padding: 8rem var(--font-size-base) var(--font-size-base) var(--font-size-base);
+
         h1 {
+            text-align: left;
             color: var(--title-color);
-            font-size: var(--h1-font-size);
+            font-size: var(--font-size-xxl);
+            text-shadow: 2px 2px 0px #000, 5px 4px 0px rgba(0, 0, 0, 0.50);
         }
+
+        h2 {
+            padding: 4rem 0 0 24rem;
+            color: var(--title-color);
+            font-size: var(--font-size-xl);
+            text-shadow: 2px 2px 0px #000, 4px 3px 0px rgba(0, 0, 0, 0.50);
+            margin-bottom: var(--font-size-xxxl);
+        }
+
         p {
             color: var(--text-color);
         }
     }
+}
 
-    article {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
-        background-color: var(--article-background);
-        border-radius: 1.25rem;
-        padding: 15px;
-        /* margin: 15px; */
-        img {
-            height: 48px;
-            width: 48px;
-        }
 
-        header {
-            color: var(--title-color);
-            font-weight: 600;
-            font-size: 0.7rem;
+
+.content-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: normal;
+    align-content: stretch;
+    padding: 0 var(--font-size-base);
+
+}
+
+.prozent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+
+
+
+    .div1 {
+        grid-area: 1 / 1 / 2 / 4;
+    }
+
+    .div2 {
+        grid-area: 2 / 1 / 4 / 2;
+    }
+
+    .div3 {
+        grid-area: 2 / 2 / 4 / 3;
+    }
+
+    .div4 {
+        grid-area: 2 / 3 / 4 / 4;
+    }
+
+    .div2,
+    .div4,
+    .div3 {
+        border-left: 1px solid var(--title-color);
+        padding: var(--font-size-base);
+
+        span {
+            font-size: var(--font-size-xxl);
         }
     }
 
-    /* ===== Content grid*/
 
-    .solo-title {
-        font-weight: 800;
-        font-size: 1.3rem;
-        color:(var(--text-color));
-        
+    .input-home {
+        border: 0px solid #696767;
+        outline: 0;
+        padding: var(--font-size-base);
+        width: 300px;
+        font-size: var(--font-size-base);
+    }
+
+    button {
+        background-color: var(--first-color);
+        outline: 0;
+        padding: var(--font-size-base);
+        width: 200px;
+        color: var(--title-color);
+        border: 0px solid var(--first-color);
+        font-size: var(--font-size-base);
 
     }
 
-    .flex-container {
-        margin-top: 5rem;
-        p {
-            margin-top: 1rem;
-        }
+}
 
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 10px;
 
-        :nth-child(1),
-        :nth-child(2) {
-            flex: 1;
-        }
 
-        .nutzen-container {
-            img {
-                object-fit: cover;
-                width: 100%;
-            }
 
-            figure {
-                height: 450px;
-                overflow: hidden;
-            }
 
-            position: relative;
-            text-align: center;
+.icons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: var(--font-size-xl);
+    grid-row-gap: var(--font-size-xl);
 
-            .centered {
-                text-shadow: 1px 1px 2px #ccc;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                font-size: var(--h2-font-size);
-                color: var(--both-background-color);
+    img {
+        height: var(--font-size-xxl);
 
-                span {
-                    text-shadow: 1px 1px 2px var(--both-accent-color);
-                    color: var(--both-accent-color);
-                }
-            }
-        }
     }
 
-    #vertrauen {
-        margin-top: 72px;
-        .section--title {
-            font-size: 2em;
-            text-align: center;
-            margin-bottom: 32px;
-        }
-        .vertrauen-container-grid {
-            display: grid;
-            column-gap: 1.25rem;
-            grid-template-columns: auto auto auto auto;
-            align-content: space-between;
-            grid-template-areas:
-                "head  head head  head"
-                "one   four seven ten"
-                "two   five eight eleven"
-                "three six  nine  twelve";
 
-            .title-color {
-                font-size: 2rem;
-                font-weight: 800;
-                color: var(--first-color);
-            }
-            > :nth-child(1) {
-                justify-self: center;
-                grid-area: head;
-            }
-            > :nth-child(2) {
-                justify-self: center;
-                grid-area: one;
-                text-align: center;
-            }
-            > :nth-child(3) {
-                justify-self: center;
-                grid-area: two;
-                text-align: center;
-            }
-            > :nth-child(4) {
-                justify-self: center;
-                grid-area: three;
-                text-align: center;
-            }
-            > :nth-child(5) {
-                justify-self: center;
-                grid-area: four;
-                text-align: center;
-            }
-            > :nth-child(6) {
-                justify-self: center;
-                grid-area: five;
-                text-align: center;
-            }
-            > :nth-child(7) {
-                justify-self: center;
-                grid-area: six;
-                text-align: center;
-            }
-            > :nth-child(8) {
-                justify-self: center;
-                grid-area: seven;
-                text-align: center;
-            }
-            > :nth-child(9) {
-                justify-self: center;
-                grid-area: eight;
-                text-align: center;
-            }
-            > :nth-child(10) {
-                justify-self: center;
-                grid-area: nine;
-                text-align: center;
-            }
-            > :nth-child(11) {
-                justify-self: center;
-                grid-area: ten;
-                text-align: center;
-            }
-            > :nth-child(12) {
-                grid-area: eleven;
-                text-align: center;
-            }
-            > :nth-child(13) {
-                justify-self: center;
-                grid-area: twelve;
-                text-align: center;
-            }
-        }
+    .div1 {
+        grid-area: 1 / 3 / 2 / 5;
+        padding-bottom: var(--font-size-base)
     }
+
+    .div2 {
+        grid-area: 2 / 2 / 3 / 4;
+        padding-bottom: var(--font-size-base)
+    }
+
+    .div3 {
+        grid-area: 2 / 4 / 3 / 6;
+        padding-bottom: var(--font-size-base)
+    }
+
+    .div4 {
+        grid-area: 3 / 1 / 4 / 3;
+        padding-bottom: var(--font-size-base)
+    }
+
+    .div5 {
+        grid-area: 3 / 5 / 4 / 7;
+        padding-bottom: var(--font-size-base)
+    }
+
+    .div6 {
+        grid-area: 3 / 3 / 4 / 5;
+        padding-bottom: var(--font-size-base)
+    }
+
+}
+
+.claim {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 8rem;
+    background-color: white;
+
+
+    .text {
+        font-size: var(--font-size-xl);
+        background: -webkit-linear-gradient(to right, rgba(7, 69, 101, 0.8548012955182073), #fa9405);
+        background: linear-gradient(to right, rgba(7, 69, 101, 0.8548012955182073), #fa9405);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        margin-bottom:  var(--font-size-base);
+    }
+
+
+}
+
+
+.pillars {
+    display: flex;
+    flex-direction: row;
+    background: rgb(7,69,101);
+    background: linear-gradient(143deg, rgba(7,69,101,0.8548012955182073) 17%, rgba(0,0,0,1) 100%);
+    border-radius: var(--font-size-base);
+     padding:  var(--font-size-base);
+    height: 300px;
+    color: #fa9405;
 }

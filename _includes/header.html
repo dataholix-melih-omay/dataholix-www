@@ -7,76 +7,97 @@
         {% assign active-static = "active-link" %}
     {% endif %}
 
-    <nav class="nav container">
-        <picture>
-            <source srcset="{{"/assets/images/navigation/data_holix_log_dark-new.svg" | | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
-            <img src="{{"/assets/images/navigation/data_holix_log_light-new.svg" | | prepend: site.baseurl}}" alt="Dataholix Logo" class="nav__img">
-        </picture>
+ 
+       
 
-        <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="{{"/#home" | prepend: site.baseurl}}" class="nav__link {{ active }}">
-                        <picture>
-                            <source srcset="{{"/assets/images/navigation/home-white.svg" | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
-                            <img src="{{"/assets/images/navigation/home.svg" | prepend: site.baseurl}}" alt="Menu Home" class="nav__icon nav__icon-active">
-                        </picture>
-                        <span class="nav__name">Home</span>
-                    </a>
-                </li>
+       
 
-                <li class="nav__item">
-                    <a href="{{"/#skills" | prepend: site.baseurl}}" class="nav__link">
-                        <picture>
-                            <source srcset="{{"/assets/images/navigation/service-01-white.svg" | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
-                            <img src="{{"/assets/images/navigation/service-01.svg" | prepend: site.baseurl}}" alt="Menu Unsere Service" class="nav__icon">
-                        </picture>
-                        <span class="nav__name">Unser Service</span>
-                    </a>
-                </li>
+       
+  
 
-                <li class="nav__item">
-                    <a href="{{"/#blog" | prepend: site.baseurl}}" class="nav__link {{ active-static }}">
-                        <picture>
-                            <source srcset="{{"/assets/images/navigation/blog-01-white.svg" | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
-                            <img src="{{"/assets/images/navigation/blog-01.svg" | prepend: site.baseurl}}" alt="Menu Blog" class="nav__icon">
-                        </picture>
-                        <span class="nav__name">Blog</span>
-                    </a>
-                </li>
-
-                <li class="nav__item">
-                    <a href="{{"/#about" | prepend: site.baseurl}}" class="nav__link">
-                        <picture>
-                            <source srcset="{{"/assets/images/navigation/wir-white.svg" | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
-                            <img src="{{"/assets/images/navigation/wir.svg" | prepend: site.baseurl}}" alt="Menu Über uns" class="nav__icon">
-                        </picture>
-                        <span class="nav__name">Wer wir sind</span>
-                    </a>
-                </li>
-
-                <li class="nav__item">
-                    <a href="{{"/#contactme" | prepend: site.baseurl}}" class="nav__link">
-                        <picture>
-                            <source srcset="{{"/assets/images/navigation/contact-white.svg" | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
-                            <img src="{{"/assets/images/navigation/contact.svg" | prepend: site.baseurl}}" alt="Menu Kontakt" class="nav__icon">
-                        </picture>
-                        <span class="nav__name">Kontakt</span>
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="" class="nav__link">
-                        <picture>
-                            <source srcset="{{"/assets/images/svgs/mode_dark_white.svg" | prepend: site.baseurl }}" media="(prefers-color-scheme: dark)">
-                            <img src="{{"/assets/images/svgs/mode_dark.svg" | prepend: site.baseurl }}" alt="Menu Kontakt" class="nav__icon">
-                        </picture>
-
-                        <span class="nav__name"><img src="{{"/assets/images/svgs/mode_dark.svg" | prepend: site.baseurl }}" alt="Hell/Dunkel" width="20px"></span>
-                    </a>
-                </li>
-            </ul>
+    <div class="container-header">
+        <div>
+            <picture>
+                <source srcset="{{"/assets/images/navigation/data_holix_log_dark-new.svg" | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
+                <img src="{{"/assets/images/navigation/data_holix_log_light-new.svg" | prepend: site.baseurl}}" alt="Dataholix Logo" class="nav__img">
+            </picture>
+        </div>
+    
+        <div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="{{"/#home" | prepend: site.baseurl}}" class="nav__link {{ active }}">
+                            <picture>
+                                <source srcset="{{"/assets/images/navigation/home-white.svg" | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
+                                <img src="{{"/assets/images/navigation/home.svg" | prepend: site.baseurl}}" alt="Menu Home" class="nav__icon nav__icon-active">
+                            </picture>
+                            <span class="nav__name">Home</span>
+                        </a>
+                    </li>
+    
+                    <li class="nav__item">
+                        <a href="{{"/#skills" | prepend: site.baseurl}}" class="nav__link">
+                            <picture>
+                                <source srcset="{{"/assets/images/navigation/service-01-white.svg" | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
+                                <img src="{{"/assets/images/navigation/service-01.svg" | prepend: site.baseurl}}" alt="Menu Unsere Service" class="nav__icon">
+                            </picture>
+                            <span class="nav__name">Unser Service</span>
+                        </a>
+                    </li>
+    
+                   <!-- <li class="nav__item">
+                        <a href="{{"/#blog" | prepend: site.baseurl}}" class="nav__link {{ active-static }}">
+                            <picture>
+                                <source srcset="{{"/assets/images/navigation/blog-01-white.svg" | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
+                                <img src="{{"/assets/images/navigation/blog-01.svg" | prepend: site.baseurl}}" alt="Menu Blog" class="nav__icon">
+                            </picture>
+                            <span class="nav__name">Blog</span>
+                        </a>
+                    </li>-->
+    
+                    <li class="nav__item">
+                        <a href="{{"/#about" | prepend: site.baseurl}}" class="nav__link">
+                            <picture>
+                                <source srcset="{{"/assets/images/navigation/wir-white.svg" | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
+                                <img src="{{"/assets/images/navigation/wir.svg" | prepend: site.baseurl}}" alt="Menu Über uns" class="nav__icon">
+                            </picture>
+                            <span class="nav__name">Team</span>
+                        </a>
+                    </li>
+    
+                    <li class="nav__item">
+                        <a href="{{"/#contactme" | prepend: site.baseurl}}" class="nav__link">
+                            <picture>
+                                <source srcset="{{"/assets/images/navigation/contact-white.svg" | prepend: site.baseurl}}" media="(prefers-color-scheme: dark)">
+                                <img src="{{"/assets/images/navigation/contact.svg" | prepend: site.baseurl}}" alt="Menu Kontakt" class="nav__icon">
+                            </picture>
+                            <span class="nav__name">Kontakt</span>
+                        </a>
+                    </li>
+                    <!--<li class="nav__item">
+                        <a href="" class="nav__link">
+                            <picture>
+                                <source srcset="{{"/assets/images/svgs/mode_dark_white.svg" | prepend: site.baseurl }}" media="(prefers-color-scheme: dark)">
+                                <img src="{{"/assets/images/svgs/mode_dark.svg" | prepend: site.baseurl }}" alt="Menu Kontakt" class="nav__icon">
+                            </picture>
+    
+                            <span class="nav__name"><img src="{{"/assets/images/svgs/mode_dark.svg" | prepend: site.baseurl }}" alt="Hell/Dunkel" width="20px"></span>
+                        </a>
+                    </li>-->
+                </ul>
+            </div>
         </div>
 
-        <a class="fix-invisible" href="#" class="nav__logo">Dataholix</a>
-    </nav>
+        <div>
+            <a href="#" >Impressum </a>
+        </div>
+        <a  href="blog.html" >
+            <div>BLOG</div>
+        </a>
+    </div>
+
+
+
+   
 </header>
