@@ -5,42 +5,46 @@ title: dataholix solutions GmbH Blog Archive
 
 <!--====== Header -->
 {% include header.html %}
-<main>
-    <section class="container section section__height" id="page_blog">
-        <h2 class="section__title">Blog Übersicht</h2>
-        <div class="flex-line">
-            <div></div>
-        </div>
-        {% assign posts=site.posts | where:"lang", page.lang | count: 1%} {% for
-        post in site.posts %}
-        <div class="container-pageblog">
-            {% if post.image_path != null and post.image_path != "" %}
 
-            <div>
-                <img
-                    src="{{post.image_path | prepend: site.baseurl}}"
-                    alt="Service icon {{post.sub_title}}"
-                />
-                {{post.quellenAngabe}}
-            </div>
-
-            {% endif %}
-            <div>
-                <p class="small-text-10">{{ post.date | date: "%-d %B %Y" }}</p>
-                <p class="spacing-blog">
+<section id="page_blog">
+    <h2 class="section__title">Alle Blog Posts</h2>
+    <div class="container-pageblog">
+        <div>
+            {% assign posts=site.posts | where:"lang", page.lang | count: 1%} {%
+            for post in site.posts %}
+            <div class="artikel">
+                <div class="div1">
+                    <img src="{{"/assets/images/about/melih_omay.webp" |
+                    prepend: site.baseurl}}">
+                </div>
+                <div class="div2"><strong>Melih Omay</strong></div>
+                <div class="div3">{{ post.date | date: "%-d %B %Y" }}</div>
+                <div class="div4">kategorie</div>
+                <div class="div5">
                     <a href="{{ post.url | prepend: site.baseurl}}">
                         <h3>{{ post.title }}</h3>
                     </a>
-                </p>
-                <section class="short-text-10">{{ post.content }}</section>
+                </div>
+                <div class="div6">{{ post.content }}</div>
+                <div class="div7">
+                    <div class="button-read-more">
+                        Mehr lesen <img
+                        src="{{"/assets/images/svgs/arrow_right.svg" | prepend:
+                        site.baseurl}}"><img
+                        src="{{"/assets/images/svgs/arrow_right.svg" | prepend:
+                        site.baseurl}}">
+                    </div>
+                </div>
+            </div>
+
+            {% endfor %}
+        </div>
+        <div>
+            <div class="button-archive">Archiv 
+                <img src="{{"/assets/images/svgs/arrow_right.svg" |prepend: site.baseurl}}">
             </div>
         </div>
-        <div class="blog-line">
-            <div></div>
-        </div>
-        {% endfor %}
-    </section>
-</main>
-<!--====== Section -->
-<!--====== Section -->
+    </div>
+</section>
+
 <script src="{{ '/assets/scripts/main.js' | prepend: site.baseurl}}"></script>
