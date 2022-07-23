@@ -2,9 +2,9 @@
     {% if page.url == "/" %}
         {% assign active = "active-link" %}
         {% assign active-static = "" %}
-    {%- else -%}
+    {%- elsif page.url == "/blogs.html" -%}
         {% assign active = "" %}
-        {% assign active-static = "active-link" %}
+        {% assign active-static = "blog_active" %}
     {% endif %}
 
     <div class="container-header">
@@ -84,8 +84,8 @@
         <div>
             <a href="impressum.html" >Impressum </a>
         </div>
-        <a href="blogs.html" class="active">
-            <div  >BLOG</div>
+        <a href="blogs.html" class="{{active-static}}">
+            <div>BLOG</div>
         </a>
     </div>
 </header>

@@ -20,8 +20,8 @@
         align-items: center;
     }
     .container-header> :nth-child(1) {
-       padding: var(--font-size-sm);
-   }
+        padding: var(--font-size-sm);
+    }
 
 
     .container-header> :nth-child(4) {
@@ -36,10 +36,10 @@
         text-shadow: 1px 0px 0px #ffffff;
         margin-left: var(--font-size-base);
 
-        &:hover ,  &.active{
+        &:hover ,  &.blog_active{
             background-color: white;
             text-shadow: 1px 0px 0px var(--first-color);
         }
     }
-    
+
 }
