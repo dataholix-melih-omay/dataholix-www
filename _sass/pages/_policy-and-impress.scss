@@ -27,9 +27,13 @@
     .container-policy-and-impress > :nth-child(2) {
         min-width: calc(10% - (var(--margin) * 2));
     }
-    h2{
+    h2, h3{
         padding-top: var(--font-size-xxl);
+        text-shadow: 2px 2px 0px #000, 4px 3px 0px rgba(0, 0, 0, 0.50);
     }
+    table{width: 100%; margin-top:var(--font-size-xl) ;}
+    b{line-height:  var(--font-size-xxl) ;}
+    i{line-height:  var(--font-size-xl) ; color:rgb(192, 254, 233);}
 }
 
 
