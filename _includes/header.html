@@ -1,5 +1,4 @@
 <header class="header" id="header">
-    {%- assign impressum_active = "nav__link" -%}
     {%- if page.url == "/" -%}
         {%- assign active = "active-link" -%}
         {%- assign active-static = "" -%}
@@ -9,7 +8,7 @@
     {%- elsif page.url == "/impressum.html" -%}
         {%- assign active = "" -%}
         {%- assign active-static = "" -%}
-        {%- assign impressum_active = "" -%}
+        {%- assign impressum_active = "active-link" -%}
     {% endif %}
 
     <div class="container-header">
@@ -87,7 +86,7 @@
         </div>
 
         <div>
-            <a href="impressum.html" class="{{impressum_active}}" >Impressum </a>
+            <a href="impressum.html" class="{{impressum_active}} nav__link" >Impressum </a>
         </div>
         <a href="blogs.html" class="{{active-static}}">
             <div>BLOG</div>

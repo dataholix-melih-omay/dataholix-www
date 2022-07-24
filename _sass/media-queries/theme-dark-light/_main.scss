@@ -1,22 +1,3 @@
 @media (prefers-color-scheme: dark) {
-    :root {
-        --hue: 36;
-        --sat: 100%;
-
-        --background-color: #101012;
-        --first-color:     hsl(var(--hue), var(--sat), 48%);
-        --first-color-alt: hsl(var(--hue), var(--sat), 36%);
-
-        --title-color: hsl(var(--hue),  100%, 100%);
-        --text-color:  hsl(var(--hue),   8%, 100%);
-        --body-color:  hsl(var(--hue), 0%, 10%);
-
-        --contrast-color: var(--text-color);
-        --container-color: var(--background-color);
-        --article-background: hsl(240, 5%, 9%);
-    }
-    body {
-        background:  var(--body-color);
-        height: 100vh;
-    }
+    @import "../../_dark_theme";
 }

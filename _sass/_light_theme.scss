@@ -1,0 +1,35 @@
+:root {
+    --header-height: 3rem;
+    --desktop-break: 968px;
+    /* ===== Farben */
+    --hue: 36;
+    --sat: 100%;
+    --background-color: #fff;
+    --both-background-color: #fff;
+    --accent_hue: 0;
+    --both-accent-color:  hsl(36, 100%, 48%);
+
+    --first-color:     hsl(var(--hue), var(--sat), 48%);
+    --first-color-alt: hsl(var(--hue), var(--sat), 36%);
+
+    --title-color: hsl(var(--hue),  12%, 15%);
+    --text-color:  hsl(var(--hue),   8%, 35%);
+    --body-color:  hsl(var(--hue), 100%, 99%);
+
+    --contrast-color: var(--background-color);
+    --container-color: var(--background-color);
+    --article-background: hsl(var(--accent_hue), 0%, 100%);
+
+
+    /* ===== Font und Darstellungen */
+    --body-font: 'Montserrat', sans-serif;
+/*  */
+    --h1-font-size: 4rem;
+    --h2-font-size: 3rem;
+    --normal-font-size: .938rem;
+    --tiny-font-size: .625rem;
+
+    /* ===== z index */
+    --t-tooltip: 10;
+    --z-fixed: 100;
+}

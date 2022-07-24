@@ -24,7 +24,6 @@
     flex-direction: column;
     align-items: center;
     row-gap: 4px;
-    color: var(--title-color);
     font-weight: 600;
 }
 
@@ -48,9 +47,3 @@
 .nav__icon-active {
     filter: invert(45%) sepia(70%) saturate(1019%) hue-rotate(4deg) brightness(99%) contrast(90%);
 }
-
-
-
-
-
-
