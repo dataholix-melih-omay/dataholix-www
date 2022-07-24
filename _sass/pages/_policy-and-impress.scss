@@ -1,7 +1,7 @@
 #policy-and-impress {
    
-    background: rgb(7,69,101);
-    background: linear-gradient(143deg, rgba(7,69,101,0.8548012955182073) 17%, rgba(0,0,0,1) 100%);
+    background: rgb(0,0,0);
+background: linear-gradient(250deg, rgba(0,0,0,1) 1%, rgba(5,53,78,1) 51%, rgba(0,0,0,1) 100%);
     padding: 0 var(--font-size-xxl);
     padding-bottom:  var(--font-size-xxxl);
 
@@ -27,9 +27,13 @@
     .container-policy-and-impress > :nth-child(2) {
         min-width: calc(10% - (var(--margin) * 2));
     }
-    h2{
+    h2, h3{
         padding-top: var(--font-size-xxl);
+        text-shadow: 2px 2px 0px #000, 4px 3px 0px rgba(0, 0, 0, 0.50);
     }
+    table{width: 100%; margin-top:var(--font-size-xl) ;}
+    b{line-height:  var(--font-size-xxl) ;}
+    i{line-height:  var(--font-size-xl) ; color:rgb(158, 249, 218);}
 }
 
 
