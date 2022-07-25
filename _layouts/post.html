@@ -5,27 +5,33 @@ layout: main_blog
 <!--====== Header -->
 {%- include header.html -%}
 
-<main>
-    <section class="container section section__height" id="page_blog">
-        <div class="back">
-            <a href="blogs.html">&#10094; Blog Übersicht</a>
-        </div>
+
+<section id="page_blog">
+    <h2 class="section__title"><a href="blogs.html">Alle Blog Posts</a></h2>
+       
         {% if page.image_path != null and page.image_path != "" %}
 
-        <p>{{ page.date | date: "%-d %B %Y" }}</p>
-        <h2>{{page.title}}</h2>
-        <br />
-        <div>
-            <img
+        <div class="container-newblog">
+            <div>kategoriesdfsdfsdf</div>
+            <div> 
+                {{ page.date | date: "%-d %B %Y" }}
+                <h2>{{page.title}}</h2>
+
+
+                <img
                 src="{{page.image_path | prepend: site.baseurl}}"
                 alt="Service icon {{page.sub_title}}"
-            />
-            {{page.quellenAngabe}}
-        </div>
-        {% endif %}
+            /></br>
+ {{page.quellenAngabe}}
+            {{ content}}
+           
 
-        <p>{{ content}}</p>
-        <br />
+            </div>
+        </div>
+
+         {% endif %}
+
+       
 
         {% if page.previous %} Nächster Blog:
         <a href="{{page.previous.url | prepend: site.baseurl}}">
@@ -37,4 +43,4 @@ layout: main_blog
         >
         {% endif %}
     </section>
-</main>
+

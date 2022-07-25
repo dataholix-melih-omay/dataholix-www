@@ -2,7 +2,7 @@
     background: rgb(0, 0, 0);
     background: linear-gradient(129deg, rgba(0, 0, 0, 1) 1%, rgba(5, 53, 78, 1) 31%, rgba(0, 0, 0, 1) 100%);
     padding: 0 var(--font-size-xxl);
-    padding-bottom:  var(--font-size-xxxl);
+    padding-bottom: var(--font-size-xxxl);
 
 
     .container-pageblog {
@@ -119,4 +119,39 @@
         margin-left: var(--font-size-base);
     }
 
+
+
+
+
+}
+
+
+
+/*-einzel Blog */
+
+.container-newblog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+
+}
+
+.container-newblog :nth-child(1) {
+    flex: 0 1 auto;
+    align-self: auto;
+    padding: 0 var(--font-size-base);
+}
+
+.container-newblog :nth-child(2) {
+    flex: 1 1 auto;
+    align-self: auto;
+}
+
+
+
+.small-text {
+    font-size: small;
 }
