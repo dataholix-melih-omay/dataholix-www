@@ -14,34 +14,33 @@ title: dataholix solutions GmbH Blog Archive
             for post in site.posts %}
             <div class="artikel">
                 <div class="div1">
-                    <img src="{{"/assets/images/about/melih_omay.webp" |
-                    prepend: site.baseurl}}">
+                    <img src="{{post.author_pic_path | prepend: site.baseurl}}" alt="Profile Bild von {{post.author_name}}">
                 </div>
-                <div class="div2"><strong>Melih Omay</strong></div>
+                <div class="div2"><strong>{{post.author_name}}</strong></div>
                 <div class="div3">{{ post.date | date: "%-d %B %Y" }}</div>
-                <div class="div4">kategorie</div>
+                <div class="div4">Kategorie: {{post.categories}}</div>
                 <div class="div5">
                     <a href="{{ post.url | prepend: site.baseurl}}">
                         <h3>{{ post.title }}</h3>
                     </a>
                 </div>
-                <div class="div6">{{ post.content }}</div>
+                <div class="div6">{{ post.description }}</div>
                 <div class="div7">
-                    <div class="button-read-more">
-                        Mehr lesen <img
-                        src="{{"/assets/images/svgs/arrow_right.svg" | prepend:
-                        site.baseurl}}"><img
-                        src="{{"/assets/images/svgs/arrow_right.svg" | prepend:
-                        site.baseurl}}">
-                    </div>
+                    <a href="{{ post.url | prepend: site.baseurl}}">
+                        <div class="button-read-more">
+                            Mehr lesen
+                            <img src="{{"/assets/images/svgs/arrow_right.svg" | prepend: site.baseurl}}" alt="alt text"/>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             {% endfor %}
         </div>
         <div>
-            <div class="button-archive">Archiv 
-                <img src="{{"/assets/images/svgs/arrow_right.svg" |prepend: site.baseurl}}">
+            <div class="button-archive" style="display: none;">
+                Archiv
+                <img src="{{"/assets/images/svgs/arrow_right.svg" |prepend: site.baseurl}}" alt="alt text"/>
             </div>
         </div>
     </div>
