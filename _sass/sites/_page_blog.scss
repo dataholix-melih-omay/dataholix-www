@@ -129,29 +129,93 @@
 
 /*-einzel Blog */
 
+
+
+
 .container-newblog {
     display: flex;
+    flex-wrap: wrap;
+    --margin: var(--font-size-base);
+    --multiplier: calc(40rem - 100%);
+    margin-top: var(--font-size-xl) 
+}
+
+.container-newblog > * {
+    max-width: 100%;
+    flex-grow: 1;
+    flex-basis: calc(var(--multiplier) * 999);
+    margin: var(--margin);
+}
+
+.container-newblog > :nth-child(1) {
+    min-width: calc(20% - (var(--margin) * 2));
+
+    .img{
+        
+        margin-right: var(--font-size-base);
+
+        img {
+           
+            width: 80%;
+            height:80%;
+            border-radius: 50%;
+            margin-top: 16px;
+            -webkit-box-shadow: 0px 0px 33px 9px rgba(10, 103, 153, 0.8);
+            box-shadow: 0px 0px 33px 9px rgba(10, 103, 153, 0.8);
+
+        }
+
+
+    }
+}
+
+.container-newblog > :nth-child(2) {
+    min-width: calc(80% - (var(--margin) * 2));
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: flex-start;
-
+    justify-content: space-between;
+    img {
+        margin-top: var(--font-size-xl);
+        width: 100%;
+        max-width: 1000px;
+        height:auto
+   }
+   em{font-size: var(--font-size-sm) }
+   .content{margin-top: var(--font-size-xl) }
 }
 
-.container-newblog :nth-child(1) {
-    flex: 0 1 auto;
-    align-self: auto;
-    padding: 0 var(--font-size-base);
+.button-rss{
+    border: 1px solid var(--first-color);
+    padding: var(--font-size-sm);
+    color: var(--first-color);
+    font-size: var(--font-size-base);
+    margin-top: var(--font-size-xl);
+   line-height: 24px;
+    display: flex;
+    align-content: center;
+   img{
+        margin-left: var(--font-size-base);
+        
+    }
 }
 
-.container-newblog :nth-child(2) {
-    flex: 1 1 auto;
-    align-self: auto;
+.headline{
+    display: flex;
+    flex-wrap: wrap;
+    --margin: var(--font-size-base);
+    --multiplier: calc(40rem - 100%);
+    padding-top:var(--font-size-xl);
 }
 
-
-
-.small-text {
-    font-size: small;
+.headline > * {
+    max-width: 100%;
+    flex-grow: 1;
+    flex-basis: calc(var(--multiplier) * 999);
+    margin: var(--margin);
 }
+
+.headline > :nth-child(1), .headline > :nth-child(2) , .headline > :nth-child(3)  {
+    min-width: calc(33% - (var(--margin) * 2));
+}
+
