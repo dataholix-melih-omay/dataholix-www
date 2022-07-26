@@ -120,7 +120,92 @@
             }
         }
 
+        #page_blog {
+            background: rgb(0, 0, 0);
+            background: linear-gradient(129deg, rgba(0, 0, 0, 1) 1%, rgba(5, 53, 78, 1) 31%, rgba(0, 0, 0, 1) 100%);
+            padding: 0 var(--font-size-sm);
+        
+           .section__title{
+            padding: var(--font-size-sm);
+        
+           }
+        
+        .container-pageblog {
+            --margin: var(--font-size-sm);
+          
+        }
+        
+        .artikel {
+            display: grid;
+            grid-template-columns: 80px auto auto auto;
+            
+            .div6 {
+                grid-area: 3 / 1 / 4 / 5;
+                margin-left: 0;
+            }
+        
+            .div7 {
+                grid-area: 4 / 1 / 5 / 2;
+                margin-left: 0;
+            }
+           
+        }
+        
+        }
+        
+        .button-read-more {
+            padding: 4px;
+            margin-top: var(--font-size-base);
+            margin-bottom: var(--font-size-xl);
+            width: 110px;
+            line-height: 18px;
+            img {
+                margin-left: var(--font-size-base);
+                height:18px
+        
+            }
+        
+        }
+        
+        
+        .container-newblog> :nth-child(1) {
+            min-width: calc(20% - (var(--margin) * 2));
+        
+            .img {
+                margin-right: var(--font-size-base);
+        
+                img {
+                    width: 40%;
+                    height: 40%;
+                    border-radius: 50%;
+                    margin-top: 16px;
+                    -webkit-box-shadow: 0px 0px 33px 9px rgba(10, 103, 153, 0.8);
+                    box-shadow: 0px 0px 33px 9px rgba(10, 103, 153, 0.8);
+                }
+            }
+        }
+        
+        .button-rss {
+            
+          
+        
+            width:120px;
+            margin-top: var(--font-size-base);
+        
+            display: flex;
+            align-content: center;
+        
+            img {
+                margin-left: var(--font-size-base);
+                
+        
+            }
+        }
+        
+
 }
+
+
 
 
 
