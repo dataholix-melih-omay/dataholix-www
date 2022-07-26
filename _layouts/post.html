@@ -38,8 +38,9 @@ layout: main_blog
         </div>
 
         <div>
-            <h2>{{page.title}}</h2>
             {{ page.date | date: "%-d %B %Y" }}
+            <h2>{{page.title}}</h2>
+            
             <div>
                 {% if page.image_path != null and page.image_path != "" %}
                     <img src="{{page.image_path | prepend: site.baseurl}}" alt="Service icon {{page.sub_title}}" />

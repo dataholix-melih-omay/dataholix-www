@@ -3,6 +3,7 @@
     background: linear-gradient(129deg, rgba(0, 0, 0, 1) 1%, rgba(5, 53, 78, 1) 31%, rgba(0, 0, 0, 1) 100%);
     padding: 0 var(--font-size-xxl);
     padding-bottom: var(--font-size-xxxl);
+    height:100vh;
 
 
     .container-pageblog {
@@ -173,7 +174,7 @@
     min-width: calc(80% - (var(--margin) * 2));
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     img {
         margin-top: var(--font-size-xl);
