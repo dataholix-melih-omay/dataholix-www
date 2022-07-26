@@ -1,10 +1,7 @@
 <section class="section about" id="about">
     <div class="container-about ">
-    {% for person in site.data.about.de.people.items %} {% include
-    elements-services/persona.html item=person %} 
+    {% for person in site.data.about.de.people.items %}
+        {% include elements-services/persona.html item=person %}
     {% endfor %}
     </div>
-
-
-   
 </section>

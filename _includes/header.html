@@ -2,7 +2,7 @@
     {%- if page.url == "/" -%}
         {%- assign active = "active-link" -%}
         {%- assign active-static = "" -%}
-    {%- elsif page.url == "/blogs.html" -%}
+    {%- elsif page.url == "/blogs.html" or include.page == "blog" -%}
         {%- assign active = "" -%}
         {%- assign active-static = "blog_active" -%}
     {%- elsif page.url == "/impressum.html" -%}
