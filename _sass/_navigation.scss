@@ -10,7 +10,7 @@
     width: 200px
 }
 
-
+/* Überschreibt im global das da `a` */
 
 .nav__list , .nav__link {
     display: flex;
@@ -27,6 +27,11 @@
     font-size:var(--font-size-base)
 }
 
+.nav__link:hover {
+    color: var(--title-color);
+    text-decoration: none;
+}
+
 .nav__name {
     font-size: var(--font-size-base);
     /* display: none;*/ /* Minimalist design, hidden labels */
@@ -34,16 +39,17 @@
 
 .nav__icon {
     width:20px;
+    filter: invert(45%) sepia(70%) saturate(1019%) hue-rotate(4deg) brightness(99%) contrast(90%);
 }
 
 .nav__icon:hover {
         cursor: pointer;
-        filter: invert(45%) sepia(70%) saturate(1019%) hue-rotate(4deg) brightness(99%) contrast(90%);
+        filter: none;
 }
 .nav__icon:focus {
-    filter: invert(45%) sepia(70%) saturate(1019%) hue-rotate(4deg) brightness(99%) contrast(90%);
+    filter: none;
 }
 
 .nav__icon-active {
-    filter: invert(45%) sepia(70%) saturate(1019%) hue-rotate(4deg) brightness(99%) contrast(90%);
+    filter: none;
 }
