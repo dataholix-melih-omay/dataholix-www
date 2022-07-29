@@ -127,7 +127,11 @@
 
 /*-einzel Blog */
 
-
+#page-post{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(129deg, rgba(0, 0, 0, 1) 1%, rgba(5, 53, 78, 1) 31%, rgba(0, 0, 0, 1) 100%);
+    padding: 0 var(--font-size-xxl);
+    padding-bottom: var(--font-size-xxxl);
 
 
 .container-newblog {
@@ -224,4 +228,6 @@
 .headline> :nth-child(2),
 .headline> :nth-child(3) {
     min-width: calc(33% - (var(--margin) * 2));
+}
+
 }
