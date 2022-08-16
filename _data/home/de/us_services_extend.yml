@@ -1,36 +1,35 @@
 
-- 
+-
   image_path: /assets/images/svgs/analyse.svg
   title: Data Analytics & Business Intelligence Lösungen
-  p: 
+  p:
     - |
       Mit Data Analytics helfen wir dir dabei aus deinen Daten die wesentlichen Informationen herauszufiltern.
       Durch die richtige Kombination und Interpretation deiner Daten ergeben sich ganz neue Entscheidungsmöglichkeiten.
-    - | 
+    - |
       Durch automatisierte Analyseschritte erhältst du neue Sichtweisen auf Sachverhalte und Prozesse.   
       Dadurch können Fakten geschaffen werden die dich bei der Beantwortung deiner Fragestellungen unterstützen.
       Zusätzlich können langfristig Prozesse im Unternehmen optimiert werden.
-    - | 
+    - |
       Wir unterstützen dich auch konzeptionell bei der Implementierung von nachhaltigen Business Intelligence Lösungen.
   alt: Data Analytics
-  services: 
+  services:
     - Datenanalyse
     - Dateninterpretation
     - Implementierung einer nachhaltigen BI Strategie
     - Evaluierung von Analytics und BI Tools
     - Management Analytics & Reporting
-    - Datenqualitätsanalyse 
+    - Datenqualitätsanalyse
 
-
-- 
+-
   image_path: /assets/images/svgs/gemeinsam.svg
   title: Management Consulting
-  p: 
+  p:
     - Das Thema agile Transformation und nachhaltige Digitalisierung stellt viele Unternehmen vor große Herausforderungen. Gerade mit Blick auf strategische Entscheidungen spielen die Themen eine essentielle Rolle für zukünftigen wirtschaftlichen Erfolg eines Unternehmens.
     - Wir bieten dir unterschiedliche Beratungsleistungen an. Alle mit dem Ziel langfristige Lösungen zu etablieren umso bessere Entscheidungen zu treffen.
     - Wir lassen dich nicht im Stich sondern begleiten dich auf dem Weg zum Erfolg.
   alt: Management Consulting
-  services: 
+  services:
     - Beratung im Bereich der agilen Transformation
     - Strategieberatung  für eine nachhaltige Digitalisierung
     - Analysen des IT IST-Zustandes
@@ -38,15 +37,15 @@
     - Begleitung und Unterstützung des Managements
     - Übernahme unternehmerischer Aufgaben und Durchführung von Audits
 
-- 
+-
   image_path: /assets/images/svgs/individual-software-development.svg
   title: Individual Software Development
-  p: 
+  p:
     - Nicht immer lassen sich durch Standard Software Deine Bedürfnisse im Unternehmen abbilden. Hier Hilft die Individual Softwarelösung, die passgenau Deine Geschäftsprozesse mit genau dem gewünschten Funktionsumfang abbildet und sich nahtlos integrieren lässt. Wir entwickeln maßgeschneiderte, moderne, sichere und funktionale Software-Lösungen.
     - Wir verstehen die Anforderungen von sowohl KMUs,  als auch von großen Unternehmen, und behalten gleichzeitig die Benutzerfreundlichkeit von Softwarelösungen im Blick.  
     - Ob Frontend-, Backend- oder Mobile-Entwicklung, wir helfen Dir, genau die digitalen Produkte zu bauen, die Du benötigst.
   alt: Individual Software Development
-  services: 
+  services:
     - Softwarespezifische Beratungsleistungen
     - Konzepte und Design moderner Software-Architekturen und Applikationen
     - Fokus auf UX/UI konformer User Interfaces
@@ -55,47 +54,47 @@
     - Beratung/ Entwicklung/ Migration/ Ablösung alter Applikationen
     - Moderner Mobile & Internetauftritt durch individuelles Design
 
-- 
+-
   image_path: /assets/images/svgs/up.svg
-  title: Customer Experience 
-  p: 
+  title: Customer Experience
+  p:
     - Positive Kundenerfahrungen zu gestalten ist für viele Unternehmen noch eine Herausforderung. Der Wettbewerbsvorteil gegenüber Konkurrenten ist jedoch immens groß.
     - Vorrangiges Ziel von Customer Experience Management ist es, aus zufriedenen Kunden loyale Kunden und aus loyalen Kunden „begeisterte Botschafter“ einer Marke oder des Produkts zu machen.
     - Wir begleiten Dich auf dem Weg zu einer modernen Customer Journey.​
-  alt: Customer Experience 
-  services: 
+  alt: Customer Experience
+  services:
     - Beratung für eine Intuitive Bedienung durch UI/UX
     - Best Practice Ansätze für eine bessere Customer Journey
     - Analyse der Customer Experience
     - Koordination zwischen Anforderungen der Fachbereiche und IT
     - Datengetriebene Prozessoptimierung
 
-- 
+-
   image_path: /assets/images/svgs/cloud-01.svg
   title: Modern Cloud Solutions
-  p: 
+  p:
     - Viele Unternehmen tun sich schwer die richtige E-Business Lösung zu finden.
     - Nicht nur für kleine Unternehmen kann es sinnvoll sein, die E-Business-Prozesse in die Cloud auszulagern. Neueste Technik, umfassender Service und jederzeit verfügbares Expertenwissen sprechen dafür.
     - Das Thema Datensicherheit lässt viele Unternehmen noch zögern, sie wollen lieber die Datenhoheit im Unternehmen behalten.
     - Wir unterstützen dich dabei die richtige Lösung zu finden.
   alt: Modern Cloud Solutions
-  services: 
+  services:
     - Ökonomische Betrachtung Cloud vs. On-Premise
     - Migration von Software und Applikationen in die Cloud
     - Skalierungskonzepte
     - Beratung bei der Integration von SaaS Produkten
     - Sicherheitskonzepte für Daten in der Cloud
 
-- 
+-
   image_path: /assets/images/svgs/training.svg
   title: PM / Agile Methodology & Training
-  p: 
+  p:
     - Das Thema Projektmanagement gibt es schon sehr lange, sorgt aber immer wieder dazu das Unternehmen Ziele nicht erreichen, Projekte scheitern und somit sehr hohe Kosten entstehen ohne einen Mehrwert zu generieren.
     - In der Literatur gibt es viele verprobte Methoden, zudem gibt es eine Vielzahl an Werkzeugen die einem innerhalb des Projektes zur Verfügung stehen.
     - Der Projektmanager ist der Dirigent des Orchesters und seine Aufgabe ist es das Projekt in Zeit, Budget und Qualität durchzuführen.
     - Durch unsere langjährige Erfahrung im Bereich PM wollen wir Dir dabei helfen, deine Projekte erfolgreich abzuschließen.
   alt: Agile Methodology
-  services: 
+  services:
     - Klassisches, agiles und Hybrides Projektmanagement  sowie Training
     - Projekt-, Multi-, Programm Management
     - Ausgeprägtes Leadership mit mehr als 20 Jahren Best Practice Erfahrung

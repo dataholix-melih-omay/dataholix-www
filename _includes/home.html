@@ -28,49 +28,44 @@
 
 </section>
 
-    <section class="content-icons" >
-        <div class="prozent">
-            <div class="div1">
-                <input class="input-home" type="email" placeholder="eMail Adresse">
-                <button>Schreib uns!</button>
-            </div>
-            <div class="div2">
-                <div><span>350 </span>erfolgreiche</div>
-                <div>IT Projekte</div>
-            </div>
-            <div class="div3">
-                <div><span>56 </span>Jahre</div>
-                <div> Expertise</div>
-            </div>
-            <div class="div4">
-                <div><span>23% </span>reduzierte </div>
-                <div> Kosten</div>
-            </div>
+<section class="content-icons" >
+    <div class="prozent">
+        <div class="div1">
+            <input class="input-home" type="email" placeholder="eMail Adresse">
+            <button>Schreib uns!</button>
         </div>
-
-        <div>
-            <div class="icons">
-                <div class="div1"><img src="{{"/assets/images/svgs/cloud-orange.svg" | prepend: site.baseurl}}"></div>
-                <div class="div2"> <img src="{{"/assets/images/svgs/gemeinsam-orange.svg" | prepend: site.baseurl}}"></div>
-                <div class="div3"><img src="{{"/assets/images/svgs/training-orange.svg" | prepend: site.baseurl}}"></div>
-                <div class="div4"><img src="{{"/assets/images/svgs/up-orange.svg" | prepend: site.baseurl}}"></div>
-                <div class="div5"> <img src="{{"/assets/images/svgs/individual-software-development-orange.svg" | prepend: site.baseurl}}"></div>
-                <div class="div6"> <img src="{{"/assets/images/svgs/analyse-orange.svg" | prepend: site.baseurl}}"></div>
-            </div>
+        <div class="div2">
+            <div><span>350 </span>erfolgreiche</div>
+            <div>IT Projekte</div>
         </div>
-    </section>
-
-    <section class="claim">
-        <div class="text">Zukunftssicher und langfristig wachsen mit dataholix.</div>
-        <div class="pillars">
-            3 Säulen
+        <div class="div3">
+            <div><span>56 </span>Jahre</div>
+            <div> Expertise</div>
         </div>
-  
-    </section>
-  
+        <div class="div4">
+            <div><span>23% </span>reduzierte </div>
+            <div> Kosten</div>
+        </div>
+    </div>
 
-    
-        
+    <div>
+        <div class="icons">
+            <div class="div1"><img src="{{"/assets/images/svgs/cloud-orange.svg" | prepend: site.baseurl}}"></div>
+            <div class="div2"><img src="{{"/assets/images/svgs/gemeinsam-orange.svg" | prepend: site.baseurl}}"></div>
+            <div class="div3"><img src="{{"/assets/images/svgs/training-orange.svg" | prepend: site.baseurl}}"></div>
+            <div class="div4"><img src="{{"/assets/images/svgs/up-orange.svg" | prepend: site.baseurl}}"></div>
+            <div class="div5"><img src="{{"/assets/images/svgs/individual-software-development-orange.svg" | prepend: site.baseurl}}"></div>
+            <div class="div6"><img src="{{"/assets/images/svgs/analyse-orange.svg" | prepend: site.baseurl}}"></div>
+        </div>
+    </div>
+</section>
 
-    
+<section class="claim">
+    <div class="text">Zukunftssicher und langfristig wachsen mit dataholix.</div>
+    <div class="pillars">
+        {% for sauleItem in site.data.home.de.drei_saulen %}
+            {% include elements-services/drei_sauelen.html item=sauleItem %}
+        {% endfor %}
+    </div>
+</section>
 
