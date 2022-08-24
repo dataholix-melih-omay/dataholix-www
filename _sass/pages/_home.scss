@@ -210,8 +210,13 @@
     }
 
     h3 {
-        color: var(--contrast-color);
-        -webkit-box-reflect: below -10px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(25%, transparent), to(rgba(255, 255, 255, 0.28)));
+        background: #b2cff5;
+        background: -webkit-linear-gradient(to right, #b2cff5, #a4f9cd);
+        background: linear-gradient(to right, #b2cff5, #a4f9cd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        width: 150px;
     }
 
     .container-pillars> :nth-child(1),
