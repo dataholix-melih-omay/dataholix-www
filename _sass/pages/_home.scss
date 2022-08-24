@@ -159,21 +159,20 @@
 
     .text {
         font-size: var(--font-size-xl);
-        background: -webkit-linear-gradient(to right, rgba(7, 69, 101, 0.8548012955182073), #fa9405);
-        background: linear-gradient(to right, rgba(7, 69, 101, 0.8548012955182073), #fa9405);
+        background: -webkit-linear-gradient(to right, rgba(26, 110, 153, 0.855), #000);
+        background: linear-gradient(to right, rgba(25, 112, 155, 0.855), #000);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
         margin-bottom: var(--font-size-lg);
+       
     }
-
-
+    .text span{color:#fa9405!important}
+    .text span.black{color:#000!important}
 }
 
 
 .pillars {
-
-
     background: rgb(7, 69, 101);
     background: radial-gradient(circle, rgba(7, 69, 101, 0.8548012955182073) 5%, rgba(0, 0, 0, 1) 100%);
     border-radius: var(--font-size-base);
