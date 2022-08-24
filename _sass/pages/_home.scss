@@ -174,7 +174,7 @@
 
 .pillars {
     background: rgb(7, 69, 101);
-    background: radial-gradient(circle, rgba(7, 69, 101, 0.8548012955182073) 5%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(129deg, rgba(0, 0, 0, 1) 1%, rgba(5, 53, 78, 1) 31%, rgba(0, 0, 0, 1) 100%);
     border-radius: var(--font-size-base);
     padding: var(--font-size-md);
     color: white;
@@ -184,7 +184,12 @@
         color: var(--contrast-color);
         font-size: var(--font-size-md);
         text-shadow: 2px 2px 0px #000, 4px 3px 0px rgba(0, 0, 0, 0.50);
+        margin-top: var(--font-size-md);
+    }
+    h2.last {
+        
         margin-bottom: var(--font-size-md);
+       
     }
 
     .container-pillars {
@@ -214,7 +219,7 @@
     .container-pillars> :nth-child(3) {
         min-width: calc(20% - (var(--margin) * 2));
         text-align: left;
-        padding: 2rem;
+        padding: 1rem ;
         border: 1px solid #08496C;
     }
 
