@@ -5,6 +5,8 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
     #home {
+
+      
         section {
             padding: 1rem var(--font-size-base) var(--font-size-base) var(--font-size-base);
 
@@ -17,6 +19,7 @@
                 font-size: var(--font-size-base)
             }
         }
+        
     }
 
     .big-X {
@@ -216,6 +219,75 @@
 
 
 @media screen and (max-width: 900px) {
+
+    #home {
+
+
+        section {
+            
+            padding: 4rem var(--font-size-base) var(--font-size-base) var(--font-size-base);
+    
+            h1 {
+               
+                font-size: var(--font-size-xl);
+                
+            }
+    
+            h2 {
+                padding: 4rem 0 0 4rem;
+               
+                font-size: var(--font-size-lg);
+                
+                margin-bottom: var(--font-size-xxxl);
+            }
+    
+           
+        }
+    }
+
+    .big-X {
+        font-size: 2rem;
+    }
+
+    .claim {
+        padding: 2rem;
+        .text {
+            font-size: var(--font-size-lg);
+            background: -webkit-linear-gradient(to right, rgba(26, 110, 153, 0.855), #000);
+            background: linear-gradient(to right, rgba(25, 112, 155, 0.855), #000);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: var(--font-size-xl);
+           
+        }
+       
+    }
+    
+    
+    .pillars {
+       
+        border-radius: var(--font-size-base);
+        padding: var(--font-size-base);
+       .container-pillars>* {
+            flex-grow: 1;
+            flex-basis: calc(var(--multiplier) * 999);
+           
+            border-radius: 1rem;
+            color: white !important;}
+    
+      
+    
+        .container-pillars> :nth-child(1),
+        .container-pillars> :nth-child(2),
+        .container-pillars> :nth-child(3) {
+            min-width: calc(100% - (var(--margin) * 2));
+            text-align: left;
+            padding: 1rem ;
+           
+        }
+    
+    }
 
     .nav__menu {
         position: fixed;
