@@ -282,7 +282,8 @@
         .container-pillars> :nth-child(2),
         .container-pillars> :nth-child(3) {
             min-width: calc(100% - (var(--margin) * 2));
-            text-align: left;
+            text-align: justify;
+            text-align-last: none;
             padding: 1rem ;
            
         }
