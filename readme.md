@@ -28,8 +28,16 @@
 
 > eventuell bundler version 2.3.7 anheben
 
+### start für lokale Umgebung (oder Github Pages)
+
 ```bash
 bundle exec jekyll serve --livereload
+```
+
+### _config-production.yml enthält Konfigurationen für die Produktivumgebung
+
+```bash
+bundle exec jekyll build --config _config.yml,_config-production.yml
 ```
 
 ## Lokal auf dem browser und nach dem push
