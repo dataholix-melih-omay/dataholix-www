@@ -12,7 +12,7 @@
 
 ### VScode hat recommended plugins
 
-- Bitte im extension @recommended aufrufen und die benötigten extension installieren
+- Bitte im extension @recommended aufrufen und die benötigten extension installieren (EditorConfig for VS Code, Ruby language support, Shopify Liquid)
 - für das EditorConfig wird auch das passende Modul gebraucht das erreichen wir mit   vorausgesetzt nodejs ist installiert
 
     ```bash
