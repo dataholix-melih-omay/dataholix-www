@@ -18,5 +18,5 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-baseurl: "/dataholix-www"
-url: "https://dataholix-melih-omay.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "" # the base hostname & protocol for your site, e.g. http://example.com

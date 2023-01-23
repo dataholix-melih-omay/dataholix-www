@@ -78,6 +78,8 @@
         .div6 {
             grid-area: 3 / 1 / 4 / 5;
             margin-left: var(--font-size-xxl);
+            text-align: justify;
+            text-align-last: none;
         }
 
         .div7 {
@@ -190,7 +192,9 @@
     }
 
     .content {
-        margin-top: var(--font-size-xl)
+        margin-top: var(--font-size-xl);
+        text-align: justify;
+	    text-align-last: none;
     }
 }
 
