@@ -7,8 +7,7 @@
     </div>
     <div>
         <div class="container-img">
-            <img
-            src="{{"/assets/images/skills/cpm-serviceware-performance-corporate-management.png" | prepend: site.baseurl}}">
+            <img class="img-size" src={{include.item.image_path | prepend: site.baseurl}}>
         </div>
         <div class="container-text">
             {%- for service in include.item.services -%}
