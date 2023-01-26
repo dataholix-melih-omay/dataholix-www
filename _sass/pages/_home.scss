@@ -44,13 +44,12 @@
 }
 
 .prozent {
+    margin-bottom: 4rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 8px;
     grid-row-gap: 8px;
-
-
 
     .div1 {
         grid-area: 1 / 1 / 2 / 4;
@@ -165,10 +164,7 @@
         background-clip: text;
         color: transparent;
         margin-bottom: var(--font-size-lg);
-        
-        .center {
-            text-align: center;
-        }
+        text-align: center;
     }
     .text span{color:#fa9405!important}
     .text span.black{color:#000!important}
@@ -181,7 +177,7 @@
     border-radius: var(--font-size-base);
     padding: var(--font-size-md);
     color: white;
-    text-align: center;
+    text-align: left;
 
     h2 {
         color: var(--contrast-color);
@@ -200,8 +196,6 @@
         flex-wrap: wrap;
         --margin: var(--font-size-xxl);
         --multiplier: calc(80rem - 100%);
-        text-align: justify;
-	    text-align-last: none;
     }
 
     .container-pillars>* {
