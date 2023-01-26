@@ -1,0 +1,8 @@
+<section id="customer">
+    <h2 class="section__title">Unsere Kunden</h2>
+    <div class="container">
+    {% for customerItem in site.data.home.de.customer.items %}
+        {% include elements-services/customer.html item=customerItem %}
+    {% endfor %}
+    </div>
+</section>

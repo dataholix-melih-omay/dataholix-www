@@ -1,0 +1,23 @@
+#customer {
+    background-color: white;
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section__title {
+        
+        text-align: center;
+        padding: 4rem 0 0 0;
+        color: black;
+        font-size: var(--font-size-xl);
+        margin-bottom: var(--font-size-xxxl);
+    }
+
+    .landscape {
+        height: 100px;
+        width: 150px;
+        filter: grayscale(100%);
+    }
+}
