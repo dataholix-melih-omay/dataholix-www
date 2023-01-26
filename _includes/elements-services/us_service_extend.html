@@ -7,11 +7,11 @@
     </div>
     <div>
         <div class="container-img">
-            <img class="img-size" src={{include.item.image_path | prepend: site.baseurl}}>
+            <img src={{include.item.image_path | prepend: site.baseurl}}>
         </div>
         <div class="container-text">
             {%- for service in include.item.services -%}
-            <section># {{service}}</section>
+            <div># </div><div>{{service}}</div>
             {%- endfor -%}
         </div>
     </div>

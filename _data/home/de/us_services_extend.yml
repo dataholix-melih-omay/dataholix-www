@@ -1,6 +1,6 @@
 
 -
-  image_path: /assets/images/svgs/skills/data_analytics.svg
+  image_path: /assets/images/svgs/skills2/data_analytics.svg
   title: Data Analytics & Business Intelligence Lösungen
   p:
     - |
@@ -22,7 +22,7 @@
     - Datenqualitätsanalyse
 
 -
-  image_path: /assets/images/svgs/skills/management_consulting.svg
+  image_path: /assets/images/svgs/skills2/management_consulting.svg
   title: Management Consulting
   p:
     - Das Thema agile Transformation und nachhaltige Digitalisierung stellt viele Unternehmen vor große Herausforderungen. Gerade mit Blick auf strategische Entscheidungen spielen die Themen eine essentielle Rolle für zukünftigen wirtschaftlichen Erfolg eines Unternehmens.
@@ -38,7 +38,7 @@
     - Übernahme unternehmerischer Aufgaben und Durchführung von Audits
 
 -
-  image_path: /assets/images/svgs/skills/individual_software.svg
+  image_path: /assets/images/svgs/skills2/individual_software.svg
   title: Individual Software Development
   p:
     - Nicht immer lassen sich durch Standard Software Deine Bedürfnisse im Unternehmen abbilden. Hier Hilft die Individual Softwarelösung, die passgenau Deine Geschäftsprozesse mit genau dem gewünschten Funktionsumfang abbildet und sich nahtlos integrieren lässt. Wir entwickeln maßgeschneiderte, moderne, sichere und funktionale Software-Lösungen.
@@ -55,7 +55,7 @@
     - Moderner Mobile & Internetauftritt durch individuelles Design
 
 -
-  image_path: /assets/images/svgs/skills/customer_experience.svg
+  image_path: /assets/images/svgs/skills2/customer_experience.svg
   title: Customer Experience
   p:
     - Positive Kundenerfahrungen zu gestalten ist für viele Unternehmen noch eine Herausforderung. Der Wettbewerbsvorteil gegenüber Konkurrenten ist jedoch immens groß.
@@ -70,7 +70,7 @@
     - Datengetriebene Prozessoptimierung
 
 -
-  image_path: /assets/images/svgs/skills/cloud_solutions.svg
+  image_path: /assets/images/svgs/skills2/cloud_solutions.svg
   title: Modern Cloud Solutions
   p:
     - Viele Unternehmen tun sich schwer die richtige E-Business Lösung zu finden.
@@ -86,7 +86,7 @@
     - Sicherheitskonzepte für Daten in der Cloud
 
 -
-  image_path: /assets/images/svgs/skills/pm_agile_training.svg
+  image_path: /assets/images/svgs/skills2/pm_agile_training.svg
   title: PM / Agile Methodology & Training
   p:
     - Das Thema Projektmanagement gibt es schon sehr lange, sorgt aber immer wieder dazu das Unternehmen Ziele nicht erreichen, Projekte scheitern und somit sehr hohe Kosten entstehen ohne einen Mehrwert zu generieren.

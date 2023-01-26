@@ -40,15 +40,16 @@
             }
 
             .img-size {
-                padding: 30px 30px 30px 30px;
+                padding: 30px;
             }
         };
 
         
 
         .container-text {
+            display: grid;
+            grid-template-columns: 20px auto;
             margin-top: -var(--font-size-xxxl);
-            ;
             margin-left: var(--font-size-xxxl);
             background: rgb(7, 69, 101);
             background: linear-gradient(153deg, rgba(7, 69, 101, 0.8548012955182073) 2%, rgba(0, 0, 0, 1) 100%);
